@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  HomeViewController.m
 //  student-life
 //
 //  Created by Jeffrey Xiong on 2/9/15.
 //  Copyright (c) 2015 Jeffrey Xiong. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HomeViewController.h"
 
-@interface ViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,4 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
 @end
+

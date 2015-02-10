@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		00A0759B1A8995AB002532FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A0759A1A8995AB002532FD /* main.m */; };
 		00A0759E1A8995AB002532FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A0759D1A8995AB002532FD /* AppDelegate.m */; };
-		00A075A11A8995AB002532FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A075A01A8995AB002532FD /* ViewController.m */; };
+		00A075A11A8995AB002532FD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A075A01A8995AB002532FD /* HomeViewController.m */; };
 		00A075A41A8995AB002532FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A075A21A8995AB002532FD /* Main.storyboard */; };
 		00A075A61A8995AB002532FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A075A51A8995AB002532FD /* Images.xcassets */; };
 		00A075A91A8995AB002532FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A075A71A8995AB002532FD /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		00A0759A1A8995AB002532FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00A0759C1A8995AB002532FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00A0759D1A8995AB002532FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		00A0759F1A8995AB002532FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		00A075A01A8995AB002532FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00A0759F1A8995AB002532FD /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		00A075A01A8995AB002532FD /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		00A075A31A8995AB002532FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00A075A51A8995AB002532FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		00A075A81A8995AB002532FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		00A0758C1A8995AB002532FD = {
 			isa = PBXGroup;
 			children = (
-				00A075971A8995AB002532FD /* student-life */,
+				00A075971A8995AB002532FD /* Target Files */,
 				00A075B11A8995AB002532FD /* student-lifeTests */,
 				00A075961A8995AB002532FD /* Products */,
 			);
@@ -78,18 +78,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00A075971A8995AB002532FD /* student-life */ = {
+		00A075971A8995AB002532FD /* Target Files */ = {
 			isa = PBXGroup;
 			children = (
 				00A0759C1A8995AB002532FD /* AppDelegate.h */,
 				00A0759D1A8995AB002532FD /* AppDelegate.m */,
-				00A0759F1A8995AB002532FD /* ViewController.h */,
-				00A075A01A8995AB002532FD /* ViewController.m */,
+				00A0759F1A8995AB002532FD /* HomeViewController.h */,
+				00A075A01A8995AB002532FD /* HomeViewController.m */,
 				00A075A21A8995AB002532FD /* Main.storyboard */,
 				00A075A51A8995AB002532FD /* Images.xcassets */,
 				00A075A71A8995AB002532FD /* LaunchScreen.xib */,
 				00A075981A8995AB002532FD /* Supporting Files */,
 			);
+			name = "Target Files";
 			path = "student-life";
 			sourceTree = "<group>";
 		};
@@ -219,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00A075A11A8995AB002532FD /* ViewController.m in Sources */,
+				00A075A11A8995AB002532FD /* HomeViewController.m in Sources */,
 				00A0759E1A8995AB002532FD /* AppDelegate.m in Sources */,
 				00A0759B1A8995AB002532FD /* main.m in Sources */,
 			);
