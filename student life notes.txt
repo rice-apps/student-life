@@ -1,0 +1,39 @@
+==========TO-DO:=============
+
+	=========SUMMARY:============
+	
+	We'll develop the Student Life App using a
+	Minimum Viable Product strategy, implementing
+	only the most important features of the 
+	application at first.
+
+
+- We need a proper application design.
+
+======MI FEATURES==========
+
+- Navigation throughout the application
+- Room Reservation Application (Fondren)
+- Rice Atlas integration (using Safari)
+- Proper calendar integration (Google Calendar API, etc.)
+
+- General information (Building hours, Campus Map, Building floorplans, School Calendar)
+
+====ROUND 2 FEATURES=======
+
+- Proper Atlas integration, speedup
+	Draw in bus routes, appropriate colors	
+
+- Data filtering for news, events (Calendar)
+- Room Reservation Application (Rec)
+
+======GENERAL NOTES:=======
+
+Compared to the Chicago App Event Page:
+
+- Increase event name size for readability, tap to read details, location, faculty, etc.
+- Different news feeds is great
+
+=======MISC. TODO=========
+
+- Take nice pichurs of campus
