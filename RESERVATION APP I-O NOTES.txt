@@ -1,0 +1,23 @@
+PHONE-SIDE INFORMATION:
+
+(User-provided)
+
+{ 
+	NET ID, PASSWORD
+
+	START TIME, END TIME, ROOM #, TITLE, DESCRIPTION
+		(invitees)
+}
+
+This is probably all mapped to a reservation # or a NET ID or something like that
+
+SERVER-SIDE INFORMATION:
+
+{
+	AVAILABLE TIMES (checked out, busy, restricted, checked out by user)
+	RESERVATION REFERENCE #
+	USER'S RESERVATIONS
+}
+
+
+So, in addition to making reservations, we should be able to EDIT and DELETE them.
