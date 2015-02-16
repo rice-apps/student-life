@@ -1,5 +1,21 @@
 ==========TO-DO:=============
 
+
+XCODE:
+	
+	- LAYOUT & DESIGN
+	- 
+
+
+OTHER OBJECTIVE-C:
+
+	- FONDREN ROOM RESERVATION
+	- RICE ATLAS 
+
+
+
+
+
 	=========SUMMARY:============
 	
 	We'll develop the Student Life App using a
