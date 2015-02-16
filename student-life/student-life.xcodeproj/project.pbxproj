@@ -14,6 +14,8 @@
 		00A075A61A8995AB002532FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A075A51A8995AB002532FD /* Images.xcassets */; };
 		00A075A91A8995AB002532FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A075A71A8995AB002532FD /* LaunchScreen.xib */; };
 		00A075B51A8995AB002532FD /* student_lifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A075B41A8995AB002532FD /* student_lifeTests.m */; };
+		00A0F3A31A91963000F05B68 /* header_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A0F3A21A91963000F05B68 /* header_logo.png */; };
+		00A0F3A51A919A3500F05B68 /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00A0F3A41A919A3500F05B68 /* cover.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		00A075AE1A8995AB002532FD /* student-lifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "student-lifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A075B31A8995AB002532FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A075B41A8995AB002532FD /* student_lifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = student_lifeTests.m; sourceTree = "<group>"; };
+		00A0F3A21A91963000F05B68 /* header_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_logo.png; sourceTree = "<group>"; };
+		00A0F3A41A919A3500F05B68 /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 				00A075A01A8995AB002532FD /* HomeViewController.m */,
 				00A075A21A8995AB002532FD /* Main.storyboard */,
 				00A075A51A8995AB002532FD /* Images.xcassets */,
+				00A0F3A11A91963000F05B68 /* Images */,
 				00A075A71A8995AB002532FD /* LaunchScreen.xib */,
 				00A075981A8995AB002532FD /* Supporting Files */,
 			);
@@ -118,6 +123,15 @@
 				00A075B31A8995AB002532FD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A0F3A11A91963000F05B68 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				00A0F3A41A919A3500F05B68 /* cover.jpg */,
+				00A0F3A21A91963000F05B68 /* header_logo.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +216,9 @@
 			files = (
 				00A075A41A8995AB002532FD /* Main.storyboard in Resources */,
 				00A075A91A8995AB002532FD /* LaunchScreen.xib in Resources */,
+				00A0F3A51A919A3500F05B68 /* cover.jpg in Resources */,
 				00A075A61A8995AB002532FD /* Images.xcassets in Resources */,
+				00A0F3A31A91963000F05B68 /* header_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +429,7 @@
 				00A075BA1A8995AB002532FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A075BB1A8995AB002532FD /* Build configuration list for PBXNativeTarget "student-lifeTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +438,7 @@
 				00A075BD1A8995AB002532FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

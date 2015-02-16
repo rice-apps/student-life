@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // Screen Size for Responsive
+    CGSize screenSize = [[UIScreen mainScreen] bounds].size;
+    CGFloat screenWidth = screenSize.width;
+    CGFloat screenHeight = screenSize.height;
+    
+    // Banner Set
+    self.banner.frame = CGRectMake(0, 0, screenWidth, 0.15 * screenHeight);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,7 +34,6 @@
 
 // Push actions to new pages
 
-// 
 
 @end
 

@@ -11,7 +11,7 @@
 @interface HomeViewController : UIViewController
 
 
-@property (weak, nonatomic) IBOutlet UIButton *didPushButton;
+@property (weak, nonatomic) IBOutlet UIImageView *banner;
 
 
 @end
