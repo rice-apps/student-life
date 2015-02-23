@@ -31,7 +31,7 @@ OTHER OBJECTIVE-C:
 - Navigation throughout the application
 - Room Reservation Application (Fondren)
 - Rice Atlas integration (using Safari)
-- Proper calendar integration (Google Calendar API, etc.)
+- Proper calendar integration  (Google Calendar API, etc.)
 
 - General information (Building hours, Campus Map, Building floorplans, School Calendar)
 
