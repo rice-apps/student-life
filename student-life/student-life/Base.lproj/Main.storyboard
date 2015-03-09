@@ -1,46 +1,228 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BuV-21-UYk">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--Home View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="QW0-Ek-xeQ">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="HomeViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <viewController id="v2n-Sd-CEW" customClass="HomeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RXg-Cr-50t">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover.jpg" id="Tvv-QK-Gu0">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="368"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" alpha="0.80000002384185809" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_logo.png" id="ZcK-nw-5uI">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover.jpg" id="bEf-cX-e2s">
+                                <rect key="frame" x="0.0" y="-7" width="320" height="275"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="0.44705882352941179" green="0.63137254901960782" blue="0.74901960784313726" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FHi-At-Y5l">
-                                <rect key="frame" x="7" y="376" width="46" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="atlas_tile.jpg" id="h12-p1-644">
+                                <rect key="frame" x="-1" y="267" width="162" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="servery_tile.jpg" id="pHP-Cq-Xvt">
+                                <rect key="frame" x="159" y="267" width="162" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.44705882349999998" green="0.63137254899999995" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar_tile.jpg" id="fas-bc-JsB">
+                                <rect key="frame" x="-1" y="428" width="162" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.44705882349999998" green="0.63137254899999995" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondren_tile.jpg" id="n5C-lm-pjG">
+                                <rect key="frame" x="159" y="428" width="162" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68076201479999998" green="1" blue="0.8350358309" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facilities_tile.jpg" id="opy-gb-k8d">
+                                <rect key="frame" x="-1" y="497" width="162" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.44705882349999998" green="0.63137254899999995" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="directory_tile.jpg" id="jhF-1t-oC5">
+                                <rect key="frame" x="159" y="497" width="162" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68076201479999998" green="1" blue="0.8350358309" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BiO-wR-uca">
+                                <rect key="frame" x="-1" y="267" width="162" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lge-mR-h6R" kind="push" id="Mi2-pm-Qsg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wTX-Qn-1HZ">
+                                <rect key="frame" x="159" y="267" width="162" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2jX-VY-yDN" kind="push" id="E7P-d6-jXf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oYa-ho-ttg">
+                                <rect key="frame" x="-1" y="428" width="161" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UMG-oa-5Gb">
+                                <rect key="frame" x="0.0" y="428" width="160" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="N9M-ob-vEf" kind="push" id="7OH-0I-396"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y0h-NG-zfl">
+                                <rect key="frame" x="161" y="428" width="160" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xhg-oY-w2a">
+                                <rect key="frame" x="-1" y="497" width="160" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pVZ-qY-cGE">
+                                <rect key="frame" x="159" y="499" width="160" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="xL9-G0-hcm"/>
+                    <navigationItem key="navigationItem" id="4dl-gV-Sdo"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="atlasBtn" destination="BiO-wR-uca" id="qz0-Oq-ry9"/>
+                        <outlet property="atlasTile" destination="h12-p1-644" id="RVn-IR-nSW"/>
+                        <outlet property="banner" destination="bEf-cX-e2s" id="FIH-xl-FVR"/>
+                        <outlet property="calendarBtn" destination="UMG-oa-5Gb" id="IyF-RW-wYX"/>
+                        <outlet property="calendarTile" destination="fas-bc-JsB" id="xd5-Wf-hSO"/>
+                        <outlet property="directoryBtn" destination="pVZ-qY-cGE" id="e5X-C4-h9L"/>
+                        <outlet property="directoryTile" destination="jhF-1t-oC5" id="i5O-0U-2ym"/>
+                        <outlet property="facilitiesBtn" destination="Xhg-oY-w2a" id="D9z-NJ-i55"/>
+                        <outlet property="facilitiesTile" destination="opy-gb-k8d" id="Sr6-sK-9Kn"/>
+                        <outlet property="fondrenBtn" destination="Y0h-NG-zfl" id="8TS-CK-0uN"/>
+                        <outlet property="fondrenTile" destination="n5C-lm-pjG" id="aPE-zi-OpX"/>
+                        <outlet property="homeBar" destination="4dl-gV-Sdo" id="7gI-dc-xry"/>
+                        <outlet property="serveryBtn" destination="wTX-Qn-1HZ" id="ByO-E1-sYx"/>
+                        <outlet property="serveryTile" destination="pHP-Cq-Xvt" id="u9M-b3-MIh"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F3j-Dd-ofB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="66" y="297"/>
+            <point key="canvasLocation" x="-3735" y="1002"/>
+        </scene>
+        <!--Atlas View Controller-->
+        <scene sceneID="dLl-kq-3kN">
+            <objects>
+                <viewController id="lge-mR-h6R" customClass="AtlasViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oD5-9q-gqF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="F45-xx-iKg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Id-Kw-ftV"/>
+                    <connections>
+                        <outlet property="atlasView" destination="F45-xx-iKg" id="ajn-Nj-kWx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LqY-F1-jb1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3333" y="1002"/>
+        </scene>
+        <!--Calendar View Controller-->
+        <scene sceneID="GNM-OQ-hhp">
+            <objects>
+                <viewController id="N9M-ob-vEf" customClass="CalendarViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MvA-WP-M7m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FA7-hz-lrQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dBF-w1-TK0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3333" y="1718"/>
+        </scene>
+        <!--Servery View Controller-->
+        <scene sceneID="70w-p3-8X1">
+            <objects>
+                <viewController id="2jX-VY-yDN" customClass="ServeryViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dZx-sZ-dtv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="tEy-Dt-wFT">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="l8F-ON-r3Y"/>
+                    <connections>
+                        <outlet property="serveryView" destination="tEy-Dt-wFT" id="lGf-ed-xfz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H9w-Ya-xkS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2941" y="1002"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ISK-y5-XXk">
+            <objects>
+                <navigationController id="BuV-21-UYk" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="sDf-4a-4lL"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XnC-bz-9fm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="J9I-ty-if3">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="v2n-Sd-CEW" kind="relationship" relationship="rootViewController" id="XQm-lp-VSc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JhQ-Ci-IXV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4155" y="1002"/>
         </scene>
     </scenes>
     <resources>
-        <image name="cover.jpg" width="712" height="555"/>
-        <image name="header_logo.png" width="600" height="272"/>
+        <image name="atlas_tile.jpg" width="375" height="375"/>
+        <image name="calendar_tile.jpg" width="375" height="175"/>
+        <image name="cover.jpg" width="1822" height="1692"/>
+        <image name="directory_tile.jpg" width="375" height="175"/>
+        <image name="facilities_tile.jpg" width="375" height="175"/>
+        <image name="fondren_tile.jpg" width="375" height="175"/>
+        <image name="servery_tile.jpg" width="375" height="375"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
