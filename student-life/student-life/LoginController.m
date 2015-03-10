@@ -1,41 +1,34 @@
 //
-//  ServeryViewController.m
+//  LoginController.m
 //  student-life
 //
-//  Created by Jeffrey Xiong on 3/8/15.
+//  Created by James Hoke Peacock IV on 3/9/15.
 //  Copyright (c) 2015 Jeffrey Xiong. All rights reserved.
 //
 
-#import "ServeryViewController.h"
+#import "LoginController.h"
 
-@interface ServeryViewController ()
+@interface LoginController ()
 
 @end
 
-@implementation ServeryViewController
+@implementation LoginController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     [self.navigationController setNavigationBarHidden:NO];
     
-    NSString *serveryString = @"http://servery.riceapps.org";
-    NSURL *serveryURL = [NSURL URLWithString:serveryString];
+    NSString *loginString = @"https://netid.rice.edu/cas/login";
+    NSURL *loginURL = [NSURL URLWithString:loginString];
     
-    NSURLRequest *serveryRequest = [NSURLRequest requestWithURL:serveryURL];
+    NSURLRequest *loginRequest = [NSURLRequest requestWithURL:loginURL];
     
-    [self.serveryView loadRequest:serveryRequest];
+    [self.loginView loadRequest:loginRequest];
+    
+    
     // Do any additional setup after loading the view.
-}
-
-- (BOOL)webView:(UIWebView *)webView
-shouldStartLoadWithRequest:(NSURLRequest *)request
- navigationType:(UIWebViewNavigationType)navigationType
-
-
-- (void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:NO];
 }
 
 - (void)didReceiveMemoryWarning {

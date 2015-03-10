@@ -26,6 +26,11 @@
 		00A0F3A31A91963000F05B68 /* header_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A0F3A21A91963000F05B68 /* header_logo.png */; };
 		00A0F3A51A919A3500F05B68 /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00A0F3A41A919A3500F05B68 /* cover.jpg */; };
 		00F5EC161AAD3E4900047D2E /* ServeryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F5EC151AAD3E4900047D2E /* ServeryViewController.m */; };
+<<<<<<< Updated upstream
+=======
+		00F5EC191AAD479E00047D2E /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F5EC181AAD479E00047D2E /* CalendarViewController.m */; };
+		AD240E651AAE776900F3D5B4 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD240E641AAE776900F3D5B4 /* LoginController.m */; };
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +72,13 @@
 		00A0F3A41A919A3500F05B68 /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
 		00F5EC141AAD3E4900047D2E /* ServeryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServeryViewController.h; sourceTree = "<group>"; };
 		00F5EC151AAD3E4900047D2E /* ServeryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServeryViewController.m; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+=======
+		00F5EC171AAD479E00047D2E /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarViewController.h; path = Calendar/CalendarViewController.h; sourceTree = "<group>"; };
+		00F5EC181AAD479E00047D2E /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarViewController.m; path = Calendar/CalendarViewController.m; sourceTree = "<group>"; };
+		AD240E631AAE776900F3D5B4 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		AD240E641AAE776900F3D5B4 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +130,8 @@
 		00A075971A8995AB002532FD /* Target Files */ = {
 			isa = PBXGroup;
 			children = (
+				AD240E631AAE776900F3D5B4 /* LoginController.h */,
+				AD240E641AAE776900F3D5B4 /* LoginController.m */,
 				00A0759C1A8995AB002532FD /* AppDelegate.h */,
 				00A0759D1A8995AB002532FD /* AppDelegate.m */,
 				00A0759F1A8995AB002532FD /* HomeViewController.h */,
@@ -287,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD240E651AAE776900F3D5B4 /* LoginController.m in Sources */,
 				001DD9171AABFB1100A6D758 /* AtlasViewController.m in Sources */,
 				00A075A11A8995AB002532FD /* HomeViewController.m in Sources */,
 				00F5EC161AAD3E4900047D2E /* ServeryViewController.m in Sources */,

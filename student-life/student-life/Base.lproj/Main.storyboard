@@ -102,6 +102,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="l3r-Lz-q8j" kind="push" id="ew0-N6-PiB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="C8q-GG-Yqi">
                                 <rect key="frame" x="16" y="229" width="43" height="30"/>
@@ -136,6 +139,31 @@
             </objects>
             <point key="canvasLocation" x="-3735" y="1002"/>
         </scene>
+        <!--Login Controller-->
+        <scene sceneID="04U-Z0-EIv">
+            <objects>
+                <viewController id="l3r-Lz-q8j" customClass="LoginController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q6y-GF-XaY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="WBJ-Xs-wTM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5a3-TW-9m7"/>
+                    <connections>
+                        <outlet property="loginView" destination="WBJ-Xs-wTM" id="cf2-Ta-s53"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iBX-WX-4qd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3319" y="344"/>
+        </scene>
         <!--Atlas View Controller-->
         <scene sceneID="dLl-kq-3kN">
             <objects>
@@ -159,7 +187,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LqY-F1-jb1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3333" y="1002"/>
+            <point key="canvasLocation" x="-3313" y="1002"/>
         </scene>
         <!--Calendar View Controller-->
         <scene sceneID="GNM-OQ-hhp">
