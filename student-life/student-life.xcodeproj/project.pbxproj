@@ -14,6 +14,8 @@
 		0003633A1AA98F8800056A03 /* facilities_tile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 000363361AA98F8800056A03 /* facilities_tile.jpg */; };
 		0003633B1AA98F8800056A03 /* fondren_tile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 000363371AA98F8800056A03 /* fondren_tile.jpg */; };
 		001DD9171AABFB1100A6D758 /* AtlasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001DD9161AABFB1100A6D758 /* AtlasViewController.m */; };
+		00251ECB1AAE2C5B00CED150 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00251ECA1AAE2C5B00CED150 /* CalendarViewController.m */; };
+		00251ECE1AAE730600CED150 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00251ECD1AAE730600CED150 /* Security.framework */; };
 		00A0759B1A8995AB002532FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A0759A1A8995AB002532FD /* main.m */; };
 		00A0759E1A8995AB002532FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A0759D1A8995AB002532FD /* AppDelegate.m */; };
 		00A075A11A8995AB002532FD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A075A01A8995AB002532FD /* HomeViewController.m */; };
@@ -24,7 +26,6 @@
 		00A0F3A31A91963000F05B68 /* header_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A0F3A21A91963000F05B68 /* header_logo.png */; };
 		00A0F3A51A919A3500F05B68 /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00A0F3A41A919A3500F05B68 /* cover.jpg */; };
 		00F5EC161AAD3E4900047D2E /* ServeryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F5EC151AAD3E4900047D2E /* ServeryViewController.m */; };
-		00F5EC191AAD479E00047D2E /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F5EC181AAD479E00047D2E /* CalendarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,9 @@
 		000363371AA98F8800056A03 /* fondren_tile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondren_tile.jpg; sourceTree = "<group>"; };
 		001DD9151AABFB1100A6D758 /* AtlasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtlasViewController.h; sourceTree = "<group>"; };
 		001DD9161AABFB1100A6D758 /* AtlasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtlasViewController.m; sourceTree = "<group>"; };
+		00251EC91AAE2C5B00CED150 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		00251ECA1AAE2C5B00CED150 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		00251ECD1AAE730600CED150 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		00A075951A8995AB002532FD /* student-life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "student-life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A075991A8995AB002532FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A0759A1A8995AB002532FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,8 +67,6 @@
 		00A0F3A41A919A3500F05B68 /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
 		00F5EC141AAD3E4900047D2E /* ServeryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServeryViewController.h; sourceTree = "<group>"; };
 		00F5EC151AAD3E4900047D2E /* ServeryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServeryViewController.m; sourceTree = "<group>"; };
-		00F5EC171AAD479E00047D2E /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarViewController.h; path = Calendar/CalendarViewController.h; sourceTree = "<group>"; };
-		00F5EC181AAD479E00047D2E /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarViewController.m; path = Calendar/CalendarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00251ECE1AAE730600CED150 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,12 +88,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00251ECF1AAE731900CED150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00251ECD1AAE730600CED150 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		00A0758C1A8995AB002532FD = {
 			isa = PBXGroup;
 			children = (
 				00A075971A8995AB002532FD /* Target Files */,
 				00A075B11A8995AB002532FD /* student-lifeTests */,
 				00A075961A8995AB002532FD /* Products */,
+				00251ECF1AAE731900CED150 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,8 +125,8 @@
 				001DD9151AABFB1100A6D758 /* AtlasViewController.h */,
 				001DD9161AABFB1100A6D758 /* AtlasViewController.m */,
 				00A075A21A8995AB002532FD /* Main.storyboard */,
-				00F5EC171AAD479E00047D2E /* CalendarViewController.h */,
-				00F5EC181AAD479E00047D2E /* CalendarViewController.m */,
+				00251EC91AAE2C5B00CED150 /* CalendarViewController.h */,
+				00251ECA1AAE2C5B00CED150 /* CalendarViewController.m */,
 				00F5EC141AAD3E4900047D2E /* ServeryViewController.h */,
 				00F5EC151AAD3E4900047D2E /* ServeryViewController.m */,
 				00A075A51A8995AB002532FD /* Images.xcassets */,
@@ -279,7 +291,7 @@
 				00A075A11A8995AB002532FD /* HomeViewController.m in Sources */,
 				00F5EC161AAD3E4900047D2E /* ServeryViewController.m in Sources */,
 				00A0759E1A8995AB002532FD /* AppDelegate.m in Sources */,
-				00F5EC191AAD479E00047D2E /* CalendarViewController.m in Sources */,
+				00251ECB1AAE2C5B00CED150 /* CalendarViewController.m in Sources */,
 				00A0759B1A8995AB002532FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +414,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GTL-fvbhnqpelgpjrqejxxjyifihhhiy/Build/Products/Debug",
+				);
 				INFOPLIST_FILE = "student-life/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +428,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GTL-fvbhnqpelgpjrqejxxjyifihhhiy/Build/Products/Debug",
+				);
 				INFOPLIST_FILE = "student-life/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
