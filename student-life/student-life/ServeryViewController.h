@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ServeryViewController : UIViewController
+
 @property (weak, nonatomic) IBOutlet UIWebView *serveryView;
 
 @end

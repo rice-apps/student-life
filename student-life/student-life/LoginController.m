@@ -7,6 +7,7 @@
 //
 
 #import "LoginController.h"
+@import Foundation;
 
 @interface LoginController ()
 
@@ -18,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.loginView.delegate = self;
+    
     [self.navigationController setNavigationBarHidden:NO];
     
     NSString *loginString = @"https://netid.rice.edu/cas/login";
@@ -26,9 +29,23 @@
     NSURLRequest *loginRequest = [NSURLRequest requestWithURL:loginURL];
     
     [self.loginView loadRequest:loginRequest];
-    
+    NSLog(@"Helloo");
     
     // Do any additional setup after loading the view.
+}
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    NSLog(@"Hello");
+    NSHTTPCookie *cookie;
+    NSHTTPCookieStorage *cookieJar = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+    for (cookie in [cookieJar cookies]) {
+        NSLog(@"%@", cookie);
+        if ([cookie.name isEqualToString:@"CASTGC"]) {
+            [self.navigationController popViewControllerAnimated:YES];
+            
+        }
+        
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {
