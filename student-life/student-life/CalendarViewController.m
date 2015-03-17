@@ -24,6 +24,15 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:NO];
+    
+    //Get calendars based on default calendar ids:
+    //Student Events id: rice.edu_90aprbs5m5el9odenh43sff5hc@group.calendar.google.com
+    
+    //RPC id: riceprogramcouncil@gmail.com
+    
+    
+    
+    
 }
 
 
