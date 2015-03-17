@@ -41,7 +41,7 @@
         NSLog(@"%@", cookie);
         if ([cookie.name isEqualToString:@"CASTGC"]) {
             [self.navigationController popViewControllerAnimated:YES];
-            
+                
         }
         
     }
