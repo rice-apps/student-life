@@ -56,6 +56,12 @@
 		00B84DB31AB0D3A40055CD4F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B84DB21AB0D3A40055CD4F /* SystemConfiguration.framework */; };
 		00F5EC161AAD3E4900047D2E /* ServeryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F5EC151AAD3E4900047D2E /* ServeryViewController.m */; };
 		AD240E651AAE776900F3D5B4 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD240E641AAE776900F3D5B4 /* LoginController.m */; };
+		AD76F4BD1AB7C2B600FAD07E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 002642441AB7C21200FDE597 /* libsqlite3.dylib */; };
+		AD76F4BE1AB7C2B800FAD07E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002642421AB7C13600FDE597 /* CoreData.framework */; };
+		AD76F4BF1AB7C2BA00FAD07E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B84DB21AB0D3A40055CD4F /* SystemConfiguration.framework */; };
+		AD76F4C01AB7C2BC00FAD07E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B84DB01AB0D39C0055CD4F /* Security.framework */; };
+		AD76F4C11AB7C2C100FAD07E /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 002446E11AB67AFF00B93ED6 /* libGTLTouchStaticLib.a */; };
+		AD76F4C31AB7CB1A00FAD07E /* calendardb.sql in Resources */ = {isa = PBXBuildFile; fileRef = AD76F4C21AB7CB1A00FAD07E /* calendardb.sql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,6 +189,7 @@
 		00F5EC151AAD3E4900047D2E /* ServeryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServeryViewController.m; sourceTree = "<group>"; };
 		AD240E631AAE776900F3D5B4 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		AD240E641AAE776900F3D5B4 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		AD76F4C21AB7CB1A00FAD07E /* calendardb.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = calendardb.sql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +208,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD76F4BD1AB7C2B600FAD07E /* libsqlite3.dylib in Frameworks */,
+				AD76F4BE1AB7C2B800FAD07E /* CoreData.framework in Frameworks */,
+				AD76F4C01AB7C2BC00FAD07E /* Security.framework in Frameworks */,
+				AD76F4C11AB7C2C100FAD07E /* libGTLTouchStaticLib.a in Frameworks */,
+				AD76F4BF1AB7C2BA00FAD07E /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +356,7 @@
 		00A075971A8995AB002532FD /* Target Files */ = {
 			isa = PBXGroup;
 			children = (
+				AD76F4C21AB7CB1A00FAD07E /* calendardb.sql */,
 				AD240E631AAE776900F3D5B4 /* LoginController.h */,
 				AD240E641AAE776900F3D5B4 /* LoginController.m */,
 				00A0759C1A8995AB002532FD /* AppDelegate.h */,
@@ -488,6 +501,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD76F4C31AB7CB1A00FAD07E /* calendardb.sql in Resources */,
 				0003633A1AA98F8800056A03 /* facilities_tile.jpg in Resources */,
 				00A075A41A8995AB002532FD /* Main.storyboard in Resources */,
 				000363391AA98F8800056A03 /* directory_tile.jpg in Resources */,
@@ -739,6 +753,10 @@
 				);
 				INFOPLIST_FILE = "student-lifeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/student-life.app/student-life";
 			};
@@ -751,6 +769,10 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "student-lifeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/student-life.app/student-life";
 			};
