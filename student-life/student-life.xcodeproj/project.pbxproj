@@ -17,6 +17,7 @@
 		002446E21AB67AFF00B93ED6 /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 002446E11AB67AFF00B93ED6 /* libGTLTouchStaticLib.a */; };
 		00251ECB1AAE2C5B00CED150 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00251ECA1AAE2C5B00CED150 /* CalendarViewController.m */; };
 		002642451AB7C21200FDE597 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 002642441AB7C21200FDE597 /* libsqlite3.dylib */; };
+		002642481AB7C4D800FDE597 /* CalendarDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 002642471AB7C4D800FDE597 /* CalendarDBManager.m */; };
 		0046018A1AB67778000063A6 /* GTLCalendarAcl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0046013A1AB67778000063A6 /* GTLCalendarAcl.m */; };
 		0046018B1AB67778000063A6 /* GTLCalendarAclRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0046013C1AB67778000063A6 /* GTLCalendarAclRule.m */; };
 		0046018C1AB67778000063A6 /* GTLCalendarCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0046013E1AB67778000063A6 /* GTLCalendarCalendar.m */; };
@@ -109,6 +110,8 @@
 		00251ECA1AAE2C5B00CED150 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		002642421AB7C13600FDE597 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		002642441AB7C21200FDE597 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		002642461AB7C4D800FDE597 /* CalendarDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDBManager.h; sourceTree = "<group>"; };
+		002642471AB7C4D800FDE597 /* CalendarDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDBManager.m; sourceTree = "<group>"; };
 		004601371AB67778000063A6 /* GTLCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendar.h; sourceTree = "<group>"; };
 		004601391AB67778000063A6 /* GTLCalendarAcl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLCalendarAcl.h; sourceTree = "<group>"; };
 		0046013A1AB67778000063A6 /* GTLCalendarAcl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLCalendarAcl.m; sourceTree = "<group>"; };
@@ -353,6 +356,8 @@
 				001DD9151AABFB1100A6D758 /* AtlasViewController.h */,
 				001DD9161AABFB1100A6D758 /* AtlasViewController.m */,
 				00A075A21A8995AB002532FD /* Main.storyboard */,
+				002642461AB7C4D800FDE597 /* CalendarDBManager.h */,
+				002642471AB7C4D800FDE597 /* CalendarDBManager.m */,
 				00251EC91AAE2C5B00CED150 /* CalendarViewController.h */,
 				00251ECA1AAE2C5B00CED150 /* CalendarViewController.m */,
 				00F5EC141AAD3E4900047D2E /* ServeryViewController.h */,
@@ -543,6 +548,7 @@
 				00A0759E1A8995AB002532FD /* AppDelegate.m in Sources */,
 				0046019F1AB67778000063A6 /* GTLCalendarSetting.m in Sources */,
 				004601921AB67778000063A6 /* GTLCalendarConstants.m in Sources */,
+				002642481AB7C4D800FDE597 /* CalendarDBManager.m in Sources */,
 				004601941AB67778000063A6 /* GTLCalendarEvent.m in Sources */,
 				004601A31AB67778000063A6 /* GTLServiceCalendar.m in Sources */,
 				004601A21AB67778000063A6 /* GTLQueryCalendar.m in Sources */,
