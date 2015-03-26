@@ -11,10 +11,12 @@
 
 @interface CalendarDBManager : NSObject
 
-@property (nonatomic, strong) NSMutableDictionary *dictColumnNames;
+//@property (nonatomic, strong) NSMutableArray *dictColumnNames;
 @property (nonatomic) int affectedRows;
 @property (nonatomic) long long lastInsertedRowID;
 
 -(instancetype)initWithDatabaseFilename:(NSString *)dbFile;
+-(NSArray *)loadDataFromDB:(NSString *)query;
+-(void)executeQuery:(NSString *)query;
 
 @end
