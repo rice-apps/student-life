@@ -14,6 +14,7 @@
 		0003633A1AA98F8800056A03 /* facilities_tile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 000363361AA98F8800056A03 /* facilities_tile.jpg */; };
 		0003633B1AA98F8800056A03 /* fondren_tile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 000363371AA98F8800056A03 /* fondren_tile.jpg */; };
 		001DD9171AABFB1100A6D758 /* AtlasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001DD9161AABFB1100A6D758 /* AtlasViewController.m */; };
+		001FBFDA1AC5F0FA00CB5A6C /* CalendarEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001FBFD91AC5F0FA00CB5A6C /* CalendarEventViewController.m */; };
 		002446E21AB67AFF00B93ED6 /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 002446E11AB67AFF00B93ED6 /* libGTLTouchStaticLib.a */; };
 		00251ECB1AAE2C5B00CED150 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00251ECA1AAE2C5B00CED150 /* CalendarViewController.m */; };
 		002642451AB7C21200FDE597 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 002642441AB7C21200FDE597 /* libsqlite3.dylib */; };
@@ -84,6 +85,8 @@
 		000363371AA98F8800056A03 /* fondren_tile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondren_tile.jpg; sourceTree = "<group>"; };
 		001DD9151AABFB1100A6D758 /* AtlasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtlasViewController.h; sourceTree = "<group>"; };
 		001DD9161AABFB1100A6D758 /* AtlasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtlasViewController.m; sourceTree = "<group>"; };
+		001FBFD81AC5F0FA00CB5A6C /* CalendarEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarEventViewController.h; sourceTree = "<group>"; };
+		001FBFD91AC5F0FA00CB5A6C /* CalendarEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarEventViewController.m; sourceTree = "<group>"; };
 		002446E11AB67AFF00B93ED6 /* libGTLTouchStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGTLTouchStaticLib.a; sourceTree = "<group>"; };
 		002446E41AB67B2B00B93ED6 /* GTLBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBase64.h; sourceTree = "<group>"; };
 		002446E51AB67B2B00B93ED6 /* GTLBatchQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLBatchQuery.h; sourceTree = "<group>"; };
@@ -369,6 +372,8 @@
 				001DD9151AABFB1100A6D758 /* AtlasViewController.h */,
 				001DD9161AABFB1100A6D758 /* AtlasViewController.m */,
 				00A075A21A8995AB002532FD /* Main.storyboard */,
+				001FBFD81AC5F0FA00CB5A6C /* CalendarEventViewController.h */,
+				001FBFD91AC5F0FA00CB5A6C /* CalendarEventViewController.m */,
 				002642461AB7C4D800FDE597 /* CalendarDBManager.h */,
 				002642471AB7C4D800FDE597 /* CalendarDBManager.m */,
 				00251EC91AAE2C5B00CED150 /* CalendarViewController.h */,
@@ -544,6 +549,7 @@
 				0046018E1AB67778000063A6 /* GTLCalendarCalendarListEntry.m in Sources */,
 				004601971AB67778000063A6 /* GTLCalendarEventDateTime.m in Sources */,
 				0046018A1AB67778000063A6 /* GTLCalendarAcl.m in Sources */,
+				001FBFDA1AC5F0FA00CB5A6C /* CalendarEventViewController.m in Sources */,
 				004601981AB67778000063A6 /* GTLCalendarEventReminder.m in Sources */,
 				AD240E651AAE776900F3D5B4 /* LoginController.m in Sources */,
 				001DD9171AABFB1100A6D758 /* AtlasViewController.m in Sources */,

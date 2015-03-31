@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "GTLCalendar.h"
 
-@interface CalendarViewController : UIViewController
+@interface CalendarViewController : UITableViewController
 
 @end
