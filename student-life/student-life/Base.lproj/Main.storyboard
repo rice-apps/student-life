@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BuV-21-UYk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BuV-21-UYk">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--Home View Controller-->
@@ -79,7 +79,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="N9M-ob-vEf" kind="push" id="7OH-0I-396"/>
+                                    <segue destination="xSe-6z-J78" kind="push" id="a0y-qS-Sqb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y0h-NG-zfl">
@@ -88,6 +88,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="CK4-4Q-S5T" kind="push" id="zdD-ax-Mtw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xhg-oY-w2a">
                                 <rect key="frame" x="-1" y="497" width="160" height="69"/>
@@ -138,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F3j-Dd-ofB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3735" y="1002"/>
+            <point key="canvasLocation" x="-3731" y="1002"/>
         </scene>
         <!--Login Controller-->
         <scene sceneID="04U-Z0-EIv">
@@ -163,7 +166,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iBX-WX-4qd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3319" y="344"/>
+            <point key="canvasLocation" x="-3297" y="346"/>
         </scene>
         <!--Atlas View Controller-->
         <scene sceneID="dLl-kq-3kN">
@@ -188,14 +191,62 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LqY-F1-jb1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3313" y="1002"/>
+            <point key="canvasLocation" x="-3297" y="1002"/>
         </scene>
-        <!--Calendar View Controller-->
+        <!--Events @ Rice-->
+        <scene sceneID="vhn-cU-aHj">
+            <objects>
+                <tableViewController id="xSe-6z-J78" customClass="CalendarViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1DH-aF-aaf">
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" textLabel="1ol-6R-jtw" detailTextLabel="nTh-9S-wOP" style="IBUITableViewCellStyleSubtitle" id="6bK-iO-X7h">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6bK-iO-X7h" id="6X9-RC-Gmv">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1ol-6R-jtw">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nTh-9S-wOP">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xSe-6z-J78" id="B7W-4P-aXr"/>
+                            <outlet property="delegate" destination="xSe-6z-J78" id="xAb-fQ-vZZ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Events @ Rice" id="Oos-4w-cex">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="b7f-cT-GV1"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <segue destination="N9M-ob-vEf" kind="push" id="v4H-h3-qbw"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dvW-9S-Kk0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4528" y="1718"/>
+        </scene>
+        <!--Calendar Event View Controller-->
         <scene sceneID="GNM-OQ-hhp">
             <objects>
-                <viewController id="N9M-ob-vEf" customClass="CalendarViewController" sceneMemberID="viewController">
+                <viewController id="N9M-ob-vEf" customClass="CalendarEventViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MvA-WP-M7m">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -206,7 +257,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dBF-w1-TK0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3390" y="1670"/>
+            <point key="canvasLocation" x="-4155" y="1718"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CFF-FW-0sR">
+            <objects>
+                <viewController id="CK4-4Q-S5T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F9O-n0-6sf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wfr-nW-EJa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JVh-Mp-nvl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3297" y="1718"/>
         </scene>
         <!--Servery View Controller-->
         <scene sceneID="70w-p3-8X1">
@@ -231,7 +297,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H9w-Ya-xkS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2941" y="1002"/>
+            <point key="canvasLocation" x="-2893" y="1002"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ISK-y5-XXk">
