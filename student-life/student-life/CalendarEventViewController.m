@@ -22,6 +22,9 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    // Display name + time
+    // Secondary view - location, description
 }
 
 - (void)didReceiveMemoryWarning {

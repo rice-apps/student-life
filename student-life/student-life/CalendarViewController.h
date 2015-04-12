@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GTLCalendar.h"
+#import "CalendarDBManager.h"
+#import "CalendarEvent.h"
 
-@interface CalendarViewController : UITableViewController
+@interface CalendarViewController : UITableViewController<NSURLConnectionDelegate>
+{
+    NSMutableData *_responseData;
+}
+
+@property (nonatomic, strong) CalendarDBManager *dbManager;
 
 @end
