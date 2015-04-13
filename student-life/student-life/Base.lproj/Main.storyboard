@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BuV-21-UYk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BuV-21-UYk">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
@@ -88,9 +88,6 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="CK4-4Q-S5T" kind="push" id="zdD-ax-Mtw"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xhg-oY-w2a">
                                 <rect key="frame" x="-1" y="497" width="160" height="69"/>
@@ -98,6 +95,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="cRx-Hp-Vaz" kind="push" id="HmK-JU-tl6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pVZ-qY-cGE">
                                 <rect key="frame" x="159" y="499" width="160" height="69"/>
@@ -257,18 +257,55 @@
             </objects>
             <point key="canvasLocation" x="-4155" y="1718"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="CFF-FW-0sR">
+        <!--Facilities at Rice University-->
+        <scene sceneID="MFh-xD-rKn">
             <objects>
-                <viewController id="CK4-4Q-S5T" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="F9O-n0-6sf">
+                <tableViewController id="cRx-Hp-Vaz" customClass="FacilitiesTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="qmo-Iv-Nsx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="Bcx-Ei-0gH">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bcx-Ei-0gH" id="ik3-82-tRz">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="hYe-vX-C9V" kind="push" id="ZTA-k1-TE0"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="cRx-Hp-Vaz" id="uPZ-qb-BFz"/>
+                            <outlet property="delegate" destination="cRx-Hp-Vaz" id="gHG-xE-rS9"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Facilities at Rice University" id="t3s-fH-F1N">
+                        <barButtonItem key="backBarButtonItem" title="Home" id="qVX-OM-sKt"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hw1-KU-e0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3731" y="1718"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZiH-J1-IVg">
+            <objects>
+                <viewController id="hYe-vX-C9V" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qQ7-1v-Mda">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="wfr-nW-EJa"/>
+                    <navigationItem key="navigationItem" id="JoE-Ej-12h"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JVh-Mp-nvl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YjP-Sh-Ve3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3297" y="1718"/>
         </scene>
