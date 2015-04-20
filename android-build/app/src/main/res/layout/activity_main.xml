@@ -4,6 +4,7 @@
     android:orientation="vertical"  tools:context=".MainActivity">
 
 
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
@@ -12,12 +13,12 @@
 
         <ImageButton
             android:layout_weight="1"
-            android:layout_width="0dip"
+            android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:id="@+id/cover_button"
+            android:text="New Button"
+            android:id="@+id/button"
             android:src="@drawable/cover"
             android:scaleType="fitXY" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -30,16 +31,14 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:id="@+id/atlas_button"
-            android:src="@drawable/atlas_tile"
-            android:scaleType="center" />
+            android:id="@+id/button2"
+            android:background="@drawable/atlas_title"/>
         <ImageButton
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:text="New Button"
-            android:id="@+id/servery_button"
-            android:src="@drawable/servery_tile"/>
+            android:id="@+id/button3"
+            android:background="@drawable/servery_title"/>
     </LinearLayout>
 
     <LinearLayout
@@ -52,16 +51,14 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:text="New Button"
-            android:id="@+id/calendar_button"
-            android:src="@drawable/calendar_tile"/>
+            android:id="@+id/button4"
+            android:background="@drawable/calendar_title"/>
         <ImageButton
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:text="New Button"
-            android:id="@+id/fondren_button"
-            android:src = "@drawable/fondren_tile"/>
+            android:background="@drawable/fondren_title"
+            android:id="@+id/button5"/>
     </LinearLayout>
 
     <LinearLayout
@@ -74,15 +71,13 @@
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:text="New Button"
-            android:id="@+id/facilities_button"
-            android:src="@drawable/facilities_tile"/>
+            android:background="@drawable/facilities_title"
+            android:id="@+id/button6" />
         <ImageButton
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:text="New Button"
-            android:id="@+id/directory_button"
-            android:src="@drawable/directory_tile"/>
+            android:background="@drawable/directory_title"
+            android:id="@+id/button7" />
     </LinearLayout>
 </LinearLayout>
