@@ -39,6 +39,7 @@
 		AD76F4C01AB7C2BC00FAD07E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B84DB01AB0D39C0055CD4F /* Security.framework */; };
 		AD76F4C11AB7C2C100FAD07E /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 002446E11AB67AFF00B93ED6 /* libGTLTouchStaticLib.a */; };
 		AD76F4C31AB7CB1A00FAD07E /* calendardb.sql in Resources */ = {isa = PBXBuildFile; fileRef = AD76F4C21AB7CB1A00FAD07E /* calendardb.sql */; };
+		ADC658051ADB50AC004DBC7F /* FacilitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC658041ADB50AC004DBC7F /* FacilitiesTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,8 @@
 		AD240E631AAE776900F3D5B4 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		AD240E641AAE776900F3D5B4 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		AD76F4C21AB7CB1A00FAD07E /* calendardb.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = calendardb.sql; sourceTree = "<group>"; };
+		ADC658031ADB50AC004DBC7F /* FacilitiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacilitiesTableViewController.h; sourceTree = "<group>"; };
+		ADC658041ADB50AC004DBC7F /* FacilitiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacilitiesTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 				001DD9151AABFB1100A6D758 /* AtlasViewController.h */,
 				001DD9161AABFB1100A6D758 /* AtlasViewController.m */,
 				00A075A21A8995AB002532FD /* Main.storyboard */,
+				ADC658031ADB50AC004DBC7F /* FacilitiesTableViewController.h */,
+				ADC658041ADB50AC004DBC7F /* FacilitiesTableViewController.m */,
 				001FBFD81AC5F0FA00CB5A6C /* CalendarEventViewController.h */,
 				001FBFD91AC5F0FA00CB5A6C /* CalendarEventViewController.m */,
 				002642461AB7C4D800FDE597 /* CalendarDBManager.h */,
@@ -340,6 +345,7 @@
 				AD240E651AAE776900F3D5B4 /* LoginController.m in Sources */,
 				001DD9171AABFB1100A6D758 /* AtlasViewController.m in Sources */,
 				00A075A11A8995AB002532FD /* HomeViewController.m in Sources */,
+				ADC658051ADB50AC004DBC7F /* FacilitiesTableViewController.m in Sources */,
 				00F5EC161AAD3E4900047D2E /* ServeryViewController.m in Sources */,
 				00A0759E1A8995AB002532FD /* AppDelegate.m in Sources */,
 				002642481AB7C4D800FDE597 /* CalendarDBManager.m in Sources */,
