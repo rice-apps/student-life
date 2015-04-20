@@ -19,6 +19,7 @@
 @implementation CalendarViewController
 
 - (void)viewDidLoad {
+
     [super viewDidLoad];
     
     // Visual Elements
@@ -31,12 +32,25 @@
     self.oldBarColor = self.navigationController.navigationBar.barTintColor;
     [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:red green:green blue:blue alpha:alpha]];
     [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
-
+    
+    // Database Init
+    self.dbManager = [[CalendarDBManager alloc] initWithDatabaseFilename:@"calendardb.sql"];
+    
     // Google API Call
-    NSString *calendarCall = @"http://https://www.googleapis.com/calendar/v3/calendars/rice.edu_90aprbs5m5el9odenh43sff5hc%40group.calendar.google.com/events?key=AIzaSyA8uiMqNYZFiBwMo-dVIr7ifnFcC00m-1I";
-    [self getCalendarRequest:calendarCall];
+    self.calendarURLArray = [NSArray arrayWithObjects:@"rice.edu_90aprbs5m5el9odenh43sff5hc%40group.calendar.google.com", nil];
+    
+    for (int i = 0; i < [self.calendarURLArray count]; i++) {
+        self.currentCall = self.calendarURLArray[i];
+        NSString *calendarCall = [NSString stringWithFormat:@"https://www.googleapis.com/calendar/v3/calendars/%@%@", self.currentCall, @"/events?key=AIzaSyB2odfmCmGT9KwJZv4ImL0OvcM-zOKQFYM"];
+        NSURL *url = [NSURL URLWithString:calendarCall];
+        NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url cachePolicy:NSURLRequestReturnCacheDataElseLoad timeoutInterval:30];
+        NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+        NSLog(@"%@", conn);
+        NSLog(@"%@", _responseData);
+    }
 
 }
+
 
 // Connection
 
@@ -55,40 +69,66 @@
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+    NSLog(@"loaded");
     CalendarEvent *event;
     NSError *e;
     NSDictionary *calendar = [NSJSONSerialization JSONObjectWithData:_responseData options:NSJSONReadingMutableContainers error:&e];
 # if DEBUG
-    NSLog(@"Object: %@", calendar);
+//    NSLog(@"Object: %@", calendar);
 # endif
     // Parse JSON, store in database.
     NSArray *eventList = [calendar valueForKey:@"items"];
     for (int i = 0; i < [eventList count]; i++) {
         event = [[CalendarEvent alloc] init];
-        event.title = [eventList[i] valueForKey:@"summary"];
-        event.startdate = [[eventList[i] valueForKey:@"start"] valueForKey:@"dateTime"];
-        event.enddate = [[eventList[i] valueForKey:@"end"] valueForKey:@"dateTime"];
-        event.location = [eventList[i] valueForKey:@"location"];
+        event.title = [self appendQuote:[eventList[i] valueForKey:@"summary"]];
+        event.startdate = [self appendQuote:[[eventList[i] valueForKey:@"start"] valueForKey:@"dateTime"]];
+        event.enddate = [self appendQuote:[[eventList[i] valueForKey:@"end"] valueForKey:@"dateTime"]];
+        event.location = [self appendQuote:[eventList[i] valueForKey:@"location"]];
+        event.eventID = [self appendQuote:[eventList[i] valueForKey:@"id"]];
         
-        NSString *query = [NSString stringWithFormat:@"insert into eventInfo values('%@', '%@', '%@', '%@'])", event.title, event.startdate, event.enddate, event.location];
-        [self.dbManager executeQuery:query];
+        // Replace existing data
+
+
+        // Write to database
+        NSString *writeQuery = [NSString stringWithFormat:@"insert into eventInfo values(null, '%@', '%@', '%@', '%@', '%@', '%@')", event.title, event.startdate, event.enddate, event.location, self.currentCall, event.eventID];
+        [self.dbManager executeQuery:writeQuery];
+        
         if (self.dbManager.affectedRows != 0) {
             NSLog(@"Query was executed successfully.");
         } else {
             NSLog(@"Query was not executed.");
         }
+        
     }
-    
+    // Read from database
+    NSString *readQuery = [NSString stringWithFormat:@"select * from eventInfo order by startdate"];
+    self.calendarEventArray = [NSMutableArray arrayWithArray:[self.dbManager loadDataFromDB:readQuery]];
+    NSLog(@"%@", self.calendarEventArray);
+
     // Loading animation
 }
-
-
-- (void)getCalendarRequest:(NSString *)urlString {
-    NSURL *url = [NSURL URLWithString:urlString];
-    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
-    NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
-    NSLog(@"%@", conn);
+// TODO: Connection fails
+- (void) connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+    
+    // Read from database
+    NSString *readQuery = [NSString stringWithFormat:@"select * from eventInfo order by startdate"];
+    self.calendarEventArray = [NSMutableArray arrayWithArray:[self.dbManager loadDataFromDB:readQuery]];
+    NSLog(@"%@", self.calendarEventArray);
+    
 }
+
+// TODO: Load data from sqlite
+
+
+// TODO: Display data on table
+
+- (NSString *)appendQuote:(NSString *)value{
+    
+    NSString * new = [value stringByReplacingOccurrencesOfString:@"'" withString:@"''"];
+    return new;
+    
+}
+
 
 
 - (void)viewDidAppear:(BOOL)animated{

@@ -38,7 +38,6 @@
     
     // Sets destination
     NSString *destinationPath = [self.documentsDirectory stringByAppendingPathComponent:self.dbFilename];
-    
     // Checks if file exists at destination, if not
     if (![[NSFileManager defaultManager] fileExistsAtPath:destinationPath]){
         
@@ -57,7 +56,7 @@
 }
 
 -(void)runQuery:(const char *)query isQueryExecutable:(BOOL)queryExecutable {
-    
+
     // Initialize database and path
     sqlite3 *sqlite3Database;
     NSString *dbPath = [self.documentsDirectory stringByAppendingPathComponent:self.dbFilename];
@@ -119,12 +118,13 @@
             }
             else {
                 // Execute query
-                BOOL executeQueryResults = sqlite3_step(compiledStatement);
+                int executeQueryResults = sqlite3_step(compiledStatement);
                 if (executeQueryResults == SQLITE_DONE) {
                     // Keep affected rows
                     self.affectedRows = sqlite3_changes(sqlite3Database);
                     // Keep affected ID
                     self.lastInsertedRowID = sqlite3_last_insert_rowid(sqlite3Database);
+                    
                 }
                 // Query cannot execute
                 else {
@@ -148,7 +148,9 @@
     return (NSArray *)self.arrResults;
 }
 -(void)executeQuery:(NSString *)query{
+    NSLog(@"executable");
     [self runQuery:[query UTF8String] isQueryExecutable:YES];
+
 }
 
 @end

@@ -15,7 +15,7 @@
 @property NSString *startdate;
 @property NSString *enddate;
 @property NSString *location;
-@property NSString *calendarID;
+@property NSString *eventID;
 
 
 @end

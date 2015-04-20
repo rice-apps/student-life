@@ -47,6 +47,7 @@
     self.directoryBtn.frame = tile6;
     
     [self.navigationController setNavigationBarHidden:YES];
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated{
