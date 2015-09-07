@@ -37,7 +37,7 @@
     self.dbManager = [[CalendarDBManager alloc] initWithDatabaseFilename:@"calendardb.sql"];
     
     // Google API Call
-    self.calendarURLArray = [NSArray arrayWithObjects:@"rice.edu_90aprbs5m5el9odenh43sff5hc%40group.calendar.google.com", nil];
+    self.calendarURLArray = [NSArray arrayWithObjects:@"rice.edu_90aprbs5m5el9odenh43sff5hc@group.calendar.google.com", nil];
     
     for (int i = 0; i < [self.calendarURLArray count]; i++) {
         self.currentCall = self.calendarURLArray[i];
@@ -48,9 +48,7 @@
         NSLog(@"%@", conn);
         NSLog(@"%@", _responseData);
     }
-
 }
-
 
 // Connection
 
@@ -76,6 +74,11 @@
 # if DEBUG
 //    NSLog(@"Object: %@", calendar);
 # endif
+    
+    // Replace old database
+    NSString *deleteQuery = [NSString stringWithFormat:@"delete from eventInfo"];
+    [self.dbManager executeQuery:deleteQuery];
+    
     // Parse JSON, store in database.
     NSArray *eventList = [calendar valueForKey:@"items"];
     for (int i = 0; i < [eventList count]; i++) {
@@ -85,9 +88,6 @@
         event.enddate = [self appendQuote:[[eventList[i] valueForKey:@"end"] valueForKey:@"dateTime"]];
         event.location = [self appendQuote:[eventList[i] valueForKey:@"location"]];
         event.eventID = [self appendQuote:[eventList[i] valueForKey:@"id"]];
-        
-        // Replace existing data
-
 
         // Write to database
         NSString *writeQuery = [NSString stringWithFormat:@"insert into eventInfo values(null, '%@', '%@', '%@', '%@', '%@', '%@')", event.title, event.startdate, event.enddate, event.location, self.currentCall, event.eventID];
@@ -101,9 +101,11 @@
         
     }
     // Read from database
-    NSString *readQuery = [NSString stringWithFormat:@"select * from eventInfo order by startdate"];
+    NSString *readQuery = [NSString stringWithFormat:@"select * from eventInfo order by startdate desc"];
     self.calendarEventArray = [NSMutableArray arrayWithArray:[self.dbManager loadDataFromDB:readQuery]];
     NSLog(@"%@", self.calendarEventArray);
+    // Update data
+    [self.tableView reloadData];
 
     // Loading animation
 }
@@ -111,16 +113,13 @@
 - (void) connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
     
     // Read from database
-    NSString *readQuery = [NSString stringWithFormat:@"select * from eventInfo order by startdate"];
+    NSString *readQuery = [NSString stringWithFormat:@"select * from eventInfo order by startdate desc"];
     self.calendarEventArray = [NSMutableArray arrayWithArray:[self.dbManager loadDataFromDB:readQuery]];
     NSLog(@"%@", self.calendarEventArray);
+    // Update data
+    [self.tableView reloadData];
     
 }
-
-// TODO: Load data from sqlite
-
-
-// TODO: Display data on table
 
 - (NSString *)appendQuote:(NSString *)value{
     
@@ -128,6 +127,31 @@
     return new;
     
 }
+
+#pragma mark - Table view data source
+
+// Table Code
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    
+    // Return the number of sections.
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
+    // Return the number of rows in the section.
+//    NSLog(@"AHHHHH %d", [self.calendarEventArray count]);
+    return [self.calendarEventArray count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    NSDictionary *item =[self.calendarEventArray objectAtIndex:[indexPath row]];
+    cell.textLabel.text = [item objectForKey:@"title"];
+    return cell;
+}
+
+
 
 
 

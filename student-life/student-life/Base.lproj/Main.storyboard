@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BuV-21-UYk">
-=======
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BuV-21-UYk">
->>>>>>> 60374708143c6605c1b82d541a4ffa3d2ad193d4
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BuV-21-UYk">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--Home View Controller-->

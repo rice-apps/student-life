@@ -280,6 +280,7 @@
 				TargetAttributes = {
 					00A075941A8995AB002532FD = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 9M7WHQLEDP;
 					};
 					00A075AD1A8995AB002532FD = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -474,6 +475,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GTL-fvbhnqpelgpjrqejxxjyifihhhiy/Build/Products/Debug",
@@ -497,6 +500,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -504,6 +508,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/GTL-fvbhnqpelgpjrqejxxjyifihhhiy/Build/Products/Debug",
@@ -527,6 +533,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -10,6 +10,9 @@
 
 @interface FacilitiesTableViewController ()
 
+@property (nonatomic, weak) UIColor *oldTintColor;
+@property (nonatomic, weak) UIColor *oldBarColor;
+
 @end
 
 @implementation FacilitiesTableViewController
@@ -25,7 +28,17 @@ NSArray *itemsArray;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-
+    
+    // Visual Elements
+    [self.navigationController setNavigationBarHidden:NO];
+    CGFloat red = 104.0/255.0;
+    CGFloat green = 143.0/255.0;
+    CGFloat blue = 169.0/255.0;
+    CGFloat alpha = 1.0;
+    self.oldTintColor = self.navigationController.navigationBar.tintColor;
+    self.oldBarColor = self.navigationController.navigationBar.barTintColor;
+    [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:red green:green blue:blue alpha:alpha]];
+    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
 
     
     // Do any additional setup after loading the view, typically from a nib.
