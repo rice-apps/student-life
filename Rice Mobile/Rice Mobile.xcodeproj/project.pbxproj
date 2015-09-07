@@ -7,50 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		006CF7E61B9E2647008CEB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 006CF7E51B9E2647008CEB54 /* main.m */; };
-		006CF7E91B9E2647008CEB54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 006CF7E81B9E2647008CEB54 /* AppDelegate.m */; };
-		006CF7EC1B9E2647008CEB54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006CF7EB1B9E2647008CEB54 /* ViewController.m */; };
-		006CF7EF1B9E2647008CEB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006CF7ED1B9E2647008CEB54 /* Main.storyboard */; };
-		006CF7F11B9E2647008CEB54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006CF7F01B9E2647008CEB54 /* Images.xcassets */; };
-		006CF7F41B9E2647008CEB54 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 006CF7F21B9E2647008CEB54 /* LaunchScreen.xib */; };
-		006CF8001B9E2647008CEB54 /* Rice_MobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 006CF7FF1B9E2647008CEB54 /* Rice_MobileTests.m */; };
+		00394A811B9E26B000ACD771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00394A801B9E26B000ACD771 /* AppDelegate.swift */; };
+		00394A831B9E26B000ACD771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00394A821B9E26B000ACD771 /* ViewController.swift */; };
+		00394A861B9E26B000ACD771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00394A841B9E26B000ACD771 /* Main.storyboard */; };
+		00394A881B9E26B000ACD771 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00394A871B9E26B000ACD771 /* Images.xcassets */; };
+		00394A8B1B9E26B000ACD771 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00394A891B9E26B000ACD771 /* LaunchScreen.xib */; };
+		00394A971B9E26B100ACD771 /* Rice_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00394A961B9E26B100ACD771 /* Rice_MobileTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		006CF7FA1B9E2647008CEB54 /* PBXContainerItemProxy */ = {
+		00394A911B9E26B100ACD771 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 006CF7D81B9E2646008CEB54 /* Project object */;
+			containerPortal = 00394A731B9E26B000ACD771 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 006CF7DF1B9E2646008CEB54;
+			remoteGlobalIDString = 00394A7A1B9E26B000ACD771;
 			remoteInfo = "Rice Mobile";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		006CF7E01B9E2646008CEB54 /* Rice Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rice Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		006CF7E41B9E2646008CEB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		006CF7E51B9E2647008CEB54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		006CF7E71B9E2647008CEB54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		006CF7E81B9E2647008CEB54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		006CF7EA1B9E2647008CEB54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		006CF7EB1B9E2647008CEB54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		006CF7EE1B9E2647008CEB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		006CF7F01B9E2647008CEB54 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		006CF7F31B9E2647008CEB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		006CF7F91B9E2647008CEB54 /* Rice MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rice MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		006CF7FE1B9E2647008CEB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		006CF7FF1B9E2647008CEB54 /* Rice_MobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rice_MobileTests.m; sourceTree = "<group>"; };
+		00394A7B1B9E26B000ACD771 /* Rice Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rice Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00394A7F1B9E26B000ACD771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00394A801B9E26B000ACD771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00394A821B9E26B000ACD771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00394A851B9E26B000ACD771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00394A871B9E26B000ACD771 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00394A8A1B9E26B000ACD771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		00394A901B9E26B100ACD771 /* Rice MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rice MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00394A951B9E26B100ACD771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00394A961B9E26B100ACD771 /* Rice_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rice_MobileTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		006CF7DD1B9E2646008CEB54 /* Frameworks */ = {
+		00394A781B9E26B000ACD771 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		006CF7F61B9E2647008CEB54 /* Frameworks */ = {
+		00394A8D1B9E26B100ACD771 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,61 +56,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		006CF7D71B9E2646008CEB54 = {
+		00394A721B9E26B000ACD771 = {
 			isa = PBXGroup;
 			children = (
-				006CF7E21B9E2646008CEB54 /* Rice Mobile */,
-				006CF7FC1B9E2647008CEB54 /* Rice MobileTests */,
-				006CF7E11B9E2646008CEB54 /* Products */,
+				00394A7D1B9E26B000ACD771 /* Rice Mobile */,
+				00394A931B9E26B100ACD771 /* Rice MobileTests */,
+				00394A7C1B9E26B000ACD771 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		006CF7E11B9E2646008CEB54 /* Products */ = {
+		00394A7C1B9E26B000ACD771 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				006CF7E01B9E2646008CEB54 /* Rice Mobile.app */,
-				006CF7F91B9E2647008CEB54 /* Rice MobileTests.xctest */,
+				00394A7B1B9E26B000ACD771 /* Rice Mobile.app */,
+				00394A901B9E26B100ACD771 /* Rice MobileTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		006CF7E21B9E2646008CEB54 /* Rice Mobile */ = {
+		00394A7D1B9E26B000ACD771 /* Rice Mobile */ = {
 			isa = PBXGroup;
 			children = (
-				006CF7E71B9E2647008CEB54 /* AppDelegate.h */,
-				006CF7E81B9E2647008CEB54 /* AppDelegate.m */,
-				006CF7EA1B9E2647008CEB54 /* ViewController.h */,
-				006CF7EB1B9E2647008CEB54 /* ViewController.m */,
-				006CF7ED1B9E2647008CEB54 /* Main.storyboard */,
-				006CF7F01B9E2647008CEB54 /* Images.xcassets */,
-				006CF7F21B9E2647008CEB54 /* LaunchScreen.xib */,
-				006CF7E31B9E2646008CEB54 /* Supporting Files */,
+				00394A801B9E26B000ACD771 /* AppDelegate.swift */,
+				00394A821B9E26B000ACD771 /* ViewController.swift */,
+				00394A841B9E26B000ACD771 /* Main.storyboard */,
+				00394A871B9E26B000ACD771 /* Images.xcassets */,
+				00394A891B9E26B000ACD771 /* LaunchScreen.xib */,
+				00394A7E1B9E26B000ACD771 /* Supporting Files */,
 			);
 			path = "Rice Mobile";
 			sourceTree = "<group>";
 		};
-		006CF7E31B9E2646008CEB54 /* Supporting Files */ = {
+		00394A7E1B9E26B000ACD771 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				006CF7E41B9E2646008CEB54 /* Info.plist */,
-				006CF7E51B9E2647008CEB54 /* main.m */,
+				00394A7F1B9E26B000ACD771 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		006CF7FC1B9E2647008CEB54 /* Rice MobileTests */ = {
+		00394A931B9E26B100ACD771 /* Rice MobileTests */ = {
 			isa = PBXGroup;
 			children = (
-				006CF7FF1B9E2647008CEB54 /* Rice_MobileTests.m */,
-				006CF7FD1B9E2647008CEB54 /* Supporting Files */,
+				00394A961B9E26B100ACD771 /* Rice_MobileTests.swift */,
+				00394A941B9E26B100ACD771 /* Supporting Files */,
 			);
 			path = "Rice MobileTests";
 			sourceTree = "<group>";
 		};
-		006CF7FD1B9E2647008CEB54 /* Supporting Files */ = {
+		00394A941B9E26B100ACD771 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				006CF7FE1B9E2647008CEB54 /* Info.plist */,
+				00394A951B9E26B100ACD771 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,13 +115,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		006CF7DF1B9E2646008CEB54 /* Rice Mobile */ = {
+		00394A7A1B9E26B000ACD771 /* Rice Mobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 006CF8031B9E2647008CEB54 /* Build configuration list for PBXNativeTarget "Rice Mobile" */;
+			buildConfigurationList = 00394A9A1B9E26B100ACD771 /* Build configuration list for PBXNativeTarget "Rice Mobile" */;
 			buildPhases = (
-				006CF7DC1B9E2646008CEB54 /* Sources */,
-				006CF7DD1B9E2646008CEB54 /* Frameworks */,
-				006CF7DE1B9E2646008CEB54 /* Resources */,
+				00394A771B9E26B000ACD771 /* Sources */,
+				00394A781B9E26B000ACD771 /* Frameworks */,
+				00394A791B9E26B000ACD771 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -136,46 +129,46 @@
 			);
 			name = "Rice Mobile";
 			productName = "Rice Mobile";
-			productReference = 006CF7E01B9E2646008CEB54 /* Rice Mobile.app */;
+			productReference = 00394A7B1B9E26B000ACD771 /* Rice Mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
-		006CF7F81B9E2647008CEB54 /* Rice MobileTests */ = {
+		00394A8F1B9E26B100ACD771 /* Rice MobileTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 006CF8061B9E2647008CEB54 /* Build configuration list for PBXNativeTarget "Rice MobileTests" */;
+			buildConfigurationList = 00394A9D1B9E26B100ACD771 /* Build configuration list for PBXNativeTarget "Rice MobileTests" */;
 			buildPhases = (
-				006CF7F51B9E2647008CEB54 /* Sources */,
-				006CF7F61B9E2647008CEB54 /* Frameworks */,
-				006CF7F71B9E2647008CEB54 /* Resources */,
+				00394A8C1B9E26B100ACD771 /* Sources */,
+				00394A8D1B9E26B100ACD771 /* Frameworks */,
+				00394A8E1B9E26B100ACD771 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				006CF7FB1B9E2647008CEB54 /* PBXTargetDependency */,
+				00394A921B9E26B100ACD771 /* PBXTargetDependency */,
 			);
 			name = "Rice MobileTests";
 			productName = "Rice MobileTests";
-			productReference = 006CF7F91B9E2647008CEB54 /* Rice MobileTests.xctest */;
+			productReference = 00394A901B9E26B100ACD771 /* Rice MobileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		006CF7D81B9E2646008CEB54 /* Project object */ = {
+		00394A731B9E26B000ACD771 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Jeffrey Xiong";
 				TargetAttributes = {
-					006CF7DF1B9E2646008CEB54 = {
+					00394A7A1B9E26B000ACD771 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					006CF7F81B9E2647008CEB54 = {
+					00394A8F1B9E26B100ACD771 = {
 						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 006CF7DF1B9E2646008CEB54;
+						TestTargetID = 00394A7A1B9E26B000ACD771;
 					};
 				};
 			};
-			buildConfigurationList = 006CF7DB1B9E2646008CEB54 /* Build configuration list for PBXProject "Rice Mobile" */;
+			buildConfigurationList = 00394A761B9E26B000ACD771 /* Build configuration list for PBXProject "Rice Mobile" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -183,29 +176,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 006CF7D71B9E2646008CEB54;
-			productRefGroup = 006CF7E11B9E2646008CEB54 /* Products */;
+			mainGroup = 00394A721B9E26B000ACD771;
+			productRefGroup = 00394A7C1B9E26B000ACD771 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				006CF7DF1B9E2646008CEB54 /* Rice Mobile */,
-				006CF7F81B9E2647008CEB54 /* Rice MobileTests */,
+				00394A7A1B9E26B000ACD771 /* Rice Mobile */,
+				00394A8F1B9E26B100ACD771 /* Rice MobileTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		006CF7DE1B9E2646008CEB54 /* Resources */ = {
+		00394A791B9E26B000ACD771 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				006CF7EF1B9E2647008CEB54 /* Main.storyboard in Resources */,
-				006CF7F41B9E2647008CEB54 /* LaunchScreen.xib in Resources */,
-				006CF7F11B9E2647008CEB54 /* Images.xcassets in Resources */,
+				00394A861B9E26B000ACD771 /* Main.storyboard in Resources */,
+				00394A8B1B9E26B000ACD771 /* LaunchScreen.xib in Resources */,
+				00394A881B9E26B000ACD771 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		006CF7F71B9E2647008CEB54 /* Resources */ = {
+		00394A8E1B9E26B100ACD771 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,47 +208,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		006CF7DC1B9E2646008CEB54 /* Sources */ = {
+		00394A771B9E26B000ACD771 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				006CF7EC1B9E2647008CEB54 /* ViewController.m in Sources */,
-				006CF7E91B9E2647008CEB54 /* AppDelegate.m in Sources */,
-				006CF7E61B9E2647008CEB54 /* main.m in Sources */,
+				00394A831B9E26B000ACD771 /* ViewController.swift in Sources */,
+				00394A811B9E26B000ACD771 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		006CF7F51B9E2647008CEB54 /* Sources */ = {
+		00394A8C1B9E26B100ACD771 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				006CF8001B9E2647008CEB54 /* Rice_MobileTests.m in Sources */,
+				00394A971B9E26B100ACD771 /* Rice_MobileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		006CF7FB1B9E2647008CEB54 /* PBXTargetDependency */ = {
+		00394A921B9E26B100ACD771 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 006CF7DF1B9E2646008CEB54 /* Rice Mobile */;
-			targetProxy = 006CF7FA1B9E2647008CEB54 /* PBXContainerItemProxy */;
+			target = 00394A7A1B9E26B000ACD771 /* Rice Mobile */;
+			targetProxy = 00394A911B9E26B100ACD771 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		006CF7ED1B9E2647008CEB54 /* Main.storyboard */ = {
+		00394A841B9E26B000ACD771 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				006CF7EE1B9E2647008CEB54 /* Base */,
+				00394A851B9E26B000ACD771 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		006CF7F21B9E2647008CEB54 /* LaunchScreen.xib */ = {
+		00394A891B9E26B000ACD771 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				006CF7F31B9E2647008CEB54 /* Base */,
+				00394A8A1B9E26B000ACD771 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -263,7 +255,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		006CF8011B9E2647008CEB54 /* Debug */ = {
+		00394A981B9E26B100ACD771 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,10 +295,11 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		006CF8021B9E2647008CEB54 /* Release */ = {
+		00394A991B9E26B100ACD771 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,7 +336,7 @@
 			};
 			name = Release;
 		};
-		006CF8041B9E2647008CEB54 /* Debug */ = {
+		00394A9B1B9E26B100ACD771 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -353,7 +346,7 @@
 			};
 			name = Debug;
 		};
-		006CF8051B9E2647008CEB54 /* Release */ = {
+		00394A9C1B9E26B100ACD771 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -363,7 +356,7 @@
 			};
 			name = Release;
 		};
-		006CF8071B9E2647008CEB54 /* Debug */ = {
+		00394A9E1B9E26B100ACD771 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,7 +375,7 @@
 			};
 			name = Debug;
 		};
-		006CF8081B9E2647008CEB54 /* Release */ = {
+		00394A9F1B9E26B100ACD771 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -400,32 +393,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		006CF7DB1B9E2646008CEB54 /* Build configuration list for PBXProject "Rice Mobile" */ = {
+		00394A761B9E26B000ACD771 /* Build configuration list for PBXProject "Rice Mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				006CF8011B9E2647008CEB54 /* Debug */,
-				006CF8021B9E2647008CEB54 /* Release */,
+				00394A981B9E26B100ACD771 /* Debug */,
+				00394A991B9E26B100ACD771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		006CF8031B9E2647008CEB54 /* Build configuration list for PBXNativeTarget "Rice Mobile" */ = {
+		00394A9A1B9E26B100ACD771 /* Build configuration list for PBXNativeTarget "Rice Mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				006CF8041B9E2647008CEB54 /* Debug */,
-				006CF8051B9E2647008CEB54 /* Release */,
+				00394A9B1B9E26B100ACD771 /* Debug */,
+				00394A9C1B9E26B100ACD771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		006CF8061B9E2647008CEB54 /* Build configuration list for PBXNativeTarget "Rice MobileTests" */ = {
+		00394A9D1B9E26B100ACD771 /* Build configuration list for PBXNativeTarget "Rice MobileTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				006CF8071B9E2647008CEB54 /* Debug */,
-				006CF8081B9E2647008CEB54 /* Release */,
+				00394A9E1B9E26B100ACD771 /* Debug */,
+				00394A9F1B9E26B100ACD771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 006CF7D81B9E2646008CEB54 /* Project object */;
+	rootObject = 00394A731B9E26B000ACD771 /* Project object */;
 }

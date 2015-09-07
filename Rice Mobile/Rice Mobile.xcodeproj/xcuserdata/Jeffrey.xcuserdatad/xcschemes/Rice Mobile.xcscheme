@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "006CF7DF1B9E2646008CEB54"
+               BlueprintIdentifier = "00394A7A1B9E26B000ACD771"
                BuildableName = "Rice Mobile.app"
                BlueprintName = "Rice Mobile"
                ReferencedContainer = "container:Rice Mobile.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "006CF7F81B9E2647008CEB54"
+               BlueprintIdentifier = "00394A8F1B9E26B100ACD771"
                BuildableName = "Rice MobileTests.xctest"
                BlueprintName = "Rice MobileTests"
                ReferencedContainer = "container:Rice Mobile.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "006CF7F81B9E2647008CEB54"
+               BlueprintIdentifier = "00394A8F1B9E26B100ACD771"
                BuildableName = "Rice MobileTests.xctest"
                BlueprintName = "Rice MobileTests"
                ReferencedContainer = "container:Rice Mobile.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "006CF7DF1B9E2646008CEB54"
+            BlueprintIdentifier = "00394A7A1B9E26B000ACD771"
             BuildableName = "Rice Mobile.app"
             BlueprintName = "Rice Mobile"
             ReferencedContainer = "container:Rice Mobile.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "006CF7DF1B9E2646008CEB54"
+            BlueprintIdentifier = "00394A7A1B9E26B000ACD771"
             BuildableName = "Rice Mobile.app"
             BlueprintName = "Rice Mobile"
             ReferencedContainer = "container:Rice Mobile.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "006CF7DF1B9E2646008CEB54"
+            BlueprintIdentifier = "00394A7A1B9E26B000ACD771"
             BuildableName = "Rice Mobile.app"
             BlueprintName = "Rice Mobile"
             ReferencedContainer = "container:Rice Mobile.xcodeproj">
