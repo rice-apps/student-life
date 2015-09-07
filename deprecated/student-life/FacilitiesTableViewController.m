@@ -30,7 +30,7 @@ NSArray *itemsArray;
     
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSDictionary *itemOne = @{ @"name" : @"Recreation Center", @"id" : @1};
+    NSDictionary *itemOne = @{ @"name" : @"Recreation Center", @"id" :@1};
     NSDictionary *itemTwo = @{ @"name" : @"Mudd Lab", @"id" : @2};
     NSDictionary *itemThree = @{ @"name" : @"Fondren Library", @"id" : @3};
     NSDictionary *itemFour = @{ @"name" : @"RUPD Station", @"id" : @4};
