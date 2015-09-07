@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:orientation="vertical" android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp" tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight=".45">
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/cover_button"
+            android:src="@drawable/cover"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight=".275">
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+<<<<<<< Updated upstream
+            android:id="@+id/atlas_button"
+            android:src="@drawable/atlas_tile"
+            android:scaleType="center" />
+=======
+            android:id="@+id/button2"
+            android:background="@drawable/atlas_title"/>
+>>>>>>> Stashed changes
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+<<<<<<< Updated upstream
+            android:text="New Button"
+            android:id="@+id/servery_button"
+            android:src="@drawable/servery_tile"/>
+=======
+            android:id="@+id/button3"
+            android:background="@drawable/servery_title"/>
+>>>>>>> Stashed changes
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight=".1375">
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+<<<<<<< Updated upstream
+            android:text="New Button"
+            android:id="@+id/calendar_button"
+            android:src="@drawable/calendar_tile"/>
+=======
+            android:id="@+id/button4"
+            android:background="@drawable/calendar_title"/>
+>>>>>>> Stashed changes
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+<<<<<<< Updated upstream
+            android:text="New Button"
+            android:id="@+id/fondren_button"
+            android:src = "@drawable/fondren_tile"/>
+=======
+            android:background="@drawable/fondren_title"
+            android:id="@+id/button5"/>
+>>>>>>> Stashed changes
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight=".1375">
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+<<<<<<< Updated upstream
+            android:text="New Button"
+            android:id="@+id/facilities_button"
+            android:src="@drawable/facilities_tile"/>
+=======
+            android:background="@drawable/facilities_title"
+            android:id="@+id/button6" />
+>>>>>>> Stashed changes
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+<<<<<<< Updated upstream
+            android:text="New Button"
+            android:id="@+id/directory_button"
+            android:src="@drawable/directory_tile"/>
+=======
+            android:background="@drawable/directory_title"
+            android:id="@+id/button7" />
+>>>>>>> Stashed changes
+    </LinearLayout>
+</LinearLayout>
