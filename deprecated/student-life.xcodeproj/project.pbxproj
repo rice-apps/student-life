@@ -70,6 +70,7 @@
 		002642441AB7C21200FDE597 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		002642461AB7C4D800FDE597 /* CalendarDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDBManager.h; sourceTree = "<group>"; };
 		002642471AB7C4D800FDE597 /* CalendarDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDBManager.m; sourceTree = "<group>"; };
+		0032479A1B9E2A8D009C3A9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0055EAEA1AD21E300078E092 /* CalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarEvent.h; sourceTree = "<group>"; };
 		0055EAEB1AD21E300078E092 /* CalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarEvent.m; sourceTree = "<group>"; };
 		00A075951A8995AB002532FD /* student-life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "student-life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -377,6 +378,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				00A075A31A8995AB002532FD /* Base */,
+				0032479A1B9E2A8D009C3A9A /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
