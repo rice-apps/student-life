@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003247A51B9E3292009C3A9A /* atlas_tile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0032479D1B9E3292009C3A9A /* atlas_tile.jpg */; };
+		003247A61B9E3292009C3A9A /* calendar_tile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0032479E1B9E3292009C3A9A /* calendar_tile.jpg */; };
+		003247A71B9E3292009C3A9A /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0032479F1B9E3292009C3A9A /* cover.jpg */; };
+		003247A81B9E3292009C3A9A /* directory_tile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 003247A01B9E3292009C3A9A /* directory_tile.jpg */; };
+		003247A91B9E3292009C3A9A /* facilities_tile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 003247A11B9E3292009C3A9A /* facilities_tile.jpg */; };
+		003247AA1B9E3292009C3A9A /* fondren_tile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 003247A21B9E3292009C3A9A /* fondren_tile.jpg */; };
+		003247AB1B9E3292009C3A9A /* header_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 003247A31B9E3292009C3A9A /* header_logo.png */; };
+		003247AC1B9E3292009C3A9A /* servery_tile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 003247A41B9E3292009C3A9A /* servery_tile.jpg */; };
 		00394A811B9E26B000ACD771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00394A801B9E26B000ACD771 /* AppDelegate.swift */; };
-		00394A831B9E26B000ACD771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00394A821B9E26B000ACD771 /* ViewController.swift */; };
+		00394A831B9E26B000ACD771 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00394A821B9E26B000ACD771 /* MainViewController.swift */; };
 		00394A861B9E26B000ACD771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00394A841B9E26B000ACD771 /* Main.storyboard */; };
 		00394A881B9E26B000ACD771 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00394A871B9E26B000ACD771 /* Images.xcassets */; };
 		00394A8B1B9E26B000ACD771 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00394A891B9E26B000ACD771 /* LaunchScreen.xib */; };
@@ -26,10 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0032479D1B9E3292009C3A9A /* atlas_tile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = atlas_tile.jpg; path = "Rice Mobile/Images/atlas_tile.jpg"; sourceTree = "<group>"; };
+		0032479E1B9E3292009C3A9A /* calendar_tile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = calendar_tile.jpg; path = "Rice Mobile/Images/calendar_tile.jpg"; sourceTree = "<group>"; };
+		0032479F1B9E3292009C3A9A /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cover.jpg; path = "Rice Mobile/Images/cover.jpg"; sourceTree = "<group>"; };
+		003247A01B9E3292009C3A9A /* directory_tile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = directory_tile.jpg; path = "Rice Mobile/Images/directory_tile.jpg"; sourceTree = "<group>"; };
+		003247A11B9E3292009C3A9A /* facilities_tile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = facilities_tile.jpg; path = "Rice Mobile/Images/facilities_tile.jpg"; sourceTree = "<group>"; };
+		003247A21B9E3292009C3A9A /* fondren_tile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fondren_tile.jpg; path = "Rice Mobile/Images/fondren_tile.jpg"; sourceTree = "<group>"; };
+		003247A31B9E3292009C3A9A /* header_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = header_logo.png; path = "Rice Mobile/Images/header_logo.png"; sourceTree = "<group>"; };
+		003247A41B9E3292009C3A9A /* servery_tile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = servery_tile.jpg; path = "Rice Mobile/Images/servery_tile.jpg"; sourceTree = "<group>"; };
 		00394A7B1B9E26B000ACD771 /* Rice Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rice Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00394A7F1B9E26B000ACD771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00394A801B9E26B000ACD771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00394A821B9E26B000ACD771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00394A821B9E26B000ACD771 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		00394A851B9E26B000ACD771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00394A871B9E26B000ACD771 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		00394A8A1B9E26B000ACD771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -56,6 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		003247AD1B9E3299009C3A9A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0032479D1B9E3292009C3A9A /* atlas_tile.jpg */,
+				0032479E1B9E3292009C3A9A /* calendar_tile.jpg */,
+				0032479F1B9E3292009C3A9A /* cover.jpg */,
+				003247A01B9E3292009C3A9A /* directory_tile.jpg */,
+				003247A11B9E3292009C3A9A /* facilities_tile.jpg */,
+				003247A21B9E3292009C3A9A /* fondren_tile.jpg */,
+				003247A31B9E3292009C3A9A /* header_logo.png */,
+				003247A41B9E3292009C3A9A /* servery_tile.jpg */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		00394A721B9E26B000ACD771 = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				00394A801B9E26B000ACD771 /* AppDelegate.swift */,
-				00394A821B9E26B000ACD771 /* ViewController.swift */,
+				00394A821B9E26B000ACD771 /* MainViewController.swift */,
 				00394A841B9E26B000ACD771 /* Main.storyboard */,
 				00394A871B9E26B000ACD771 /* Images.xcassets */,
 				00394A891B9E26B000ACD771 /* LaunchScreen.xib */,
+				003247AD1B9E3299009C3A9A /* Images */,
 				00394A7E1B9E26B000ACD771 /* Supporting Files */,
 			);
 			path = "Rice Mobile";
@@ -192,9 +225,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003247AA1B9E3292009C3A9A /* fondren_tile.jpg in Resources */,
 				00394A861B9E26B000ACD771 /* Main.storyboard in Resources */,
 				00394A8B1B9E26B000ACD771 /* LaunchScreen.xib in Resources */,
+				003247A81B9E3292009C3A9A /* directory_tile.jpg in Resources */,
+				003247A61B9E3292009C3A9A /* calendar_tile.jpg in Resources */,
+				003247A91B9E3292009C3A9A /* facilities_tile.jpg in Resources */,
+				003247A71B9E3292009C3A9A /* cover.jpg in Resources */,
 				00394A881B9E26B000ACD771 /* Images.xcassets in Resources */,
+				003247A51B9E3292009C3A9A /* atlas_tile.jpg in Resources */,
+				003247AB1B9E3292009C3A9A /* header_logo.png in Resources */,
+				003247AC1B9E3292009C3A9A /* servery_tile.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00394A831B9E26B000ACD771 /* ViewController.swift in Sources */,
+				00394A831B9E26B000ACD771 /* MainViewController.swift in Sources */,
 				00394A811B9E26B000ACD771 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +450,7 @@
 				00394A9C1B9E26B100ACD771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00394A9D1B9E26B100ACD771 /* Build configuration list for PBXNativeTarget "Rice MobileTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +459,7 @@
 				00394A9F1B9E26B100ACD771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
