@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006CF7E61B9E2647008CEB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 006CF7E51B9E2647008CEB54 /* main.m */; };
+		006CF7E91B9E2647008CEB54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 006CF7E81B9E2647008CEB54 /* AppDelegate.m */; };
+		006CF7EC1B9E2647008CEB54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006CF7EB1B9E2647008CEB54 /* ViewController.m */; };
+		006CF7EF1B9E2647008CEB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006CF7ED1B9E2647008CEB54 /* Main.storyboard */; };
+		006CF7F11B9E2647008CEB54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006CF7F01B9E2647008CEB54 /* Images.xcassets */; };
+		006CF7F41B9E2647008CEB54 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 006CF7F21B9E2647008CEB54 /* LaunchScreen.xib */; };
+		006CF8001B9E2647008CEB54 /* Rice_MobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 006CF7FF1B9E2647008CEB54 /* Rice_MobileTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		006CF7FA1B9E2647008CEB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 006CF7D81B9E2646008CEB54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 006CF7DF1B9E2646008CEB54;
+			remoteInfo = "Rice Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006CF7E01B9E2646008CEB54 /* Rice Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rice Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		006CF7E41B9E2646008CEB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006CF7E51B9E2647008CEB54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		006CF7E71B9E2647008CEB54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		006CF7E81B9E2647008CEB54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		006CF7EA1B9E2647008CEB54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		006CF7EB1B9E2647008CEB54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		006CF7EE1B9E2647008CEB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		006CF7F01B9E2647008CEB54 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		006CF7F31B9E2647008CEB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		006CF7F91B9E2647008CEB54 /* Rice MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rice MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		006CF7FE1B9E2647008CEB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006CF7FF1B9E2647008CEB54 /* Rice_MobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rice_MobileTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		006CF7DD1B9E2646008CEB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		006CF7F61B9E2647008CEB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		006CF7D71B9E2646008CEB54 = {
+			isa = PBXGroup;
+			children = (
+				006CF7E21B9E2646008CEB54 /* Rice Mobile */,
+				006CF7FC1B9E2647008CEB54 /* Rice MobileTests */,
+				006CF7E11B9E2646008CEB54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		006CF7E11B9E2646008CEB54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				006CF7E01B9E2646008CEB54 /* Rice Mobile.app */,
+				006CF7F91B9E2647008CEB54 /* Rice MobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		006CF7E21B9E2646008CEB54 /* Rice Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				006CF7E71B9E2647008CEB54 /* AppDelegate.h */,
+				006CF7E81B9E2647008CEB54 /* AppDelegate.m */,
+				006CF7EA1B9E2647008CEB54 /* ViewController.h */,
+				006CF7EB1B9E2647008CEB54 /* ViewController.m */,
+				006CF7ED1B9E2647008CEB54 /* Main.storyboard */,
+				006CF7F01B9E2647008CEB54 /* Images.xcassets */,
+				006CF7F21B9E2647008CEB54 /* LaunchScreen.xib */,
+				006CF7E31B9E2646008CEB54 /* Supporting Files */,
+			);
+			path = "Rice Mobile";
+			sourceTree = "<group>";
+		};
+		006CF7E31B9E2646008CEB54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				006CF7E41B9E2646008CEB54 /* Info.plist */,
+				006CF7E51B9E2647008CEB54 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		006CF7FC1B9E2647008CEB54 /* Rice MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				006CF7FF1B9E2647008CEB54 /* Rice_MobileTests.m */,
+				006CF7FD1B9E2647008CEB54 /* Supporting Files */,
+			);
+			path = "Rice MobileTests";
+			sourceTree = "<group>";
+		};
+		006CF7FD1B9E2647008CEB54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				006CF7FE1B9E2647008CEB54 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		006CF7DF1B9E2646008CEB54 /* Rice Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 006CF8031B9E2647008CEB54 /* Build configuration list for PBXNativeTarget "Rice Mobile" */;
+			buildPhases = (
+				006CF7DC1B9E2646008CEB54 /* Sources */,
+				006CF7DD1B9E2646008CEB54 /* Frameworks */,
+				006CF7DE1B9E2646008CEB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rice Mobile";
+			productName = "Rice Mobile";
+			productReference = 006CF7E01B9E2646008CEB54 /* Rice Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		006CF7F81B9E2647008CEB54 /* Rice MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 006CF8061B9E2647008CEB54 /* Build configuration list for PBXNativeTarget "Rice MobileTests" */;
+			buildPhases = (
+				006CF7F51B9E2647008CEB54 /* Sources */,
+				006CF7F61B9E2647008CEB54 /* Frameworks */,
+				006CF7F71B9E2647008CEB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				006CF7FB1B9E2647008CEB54 /* PBXTargetDependency */,
+			);
+			name = "Rice MobileTests";
+			productName = "Rice MobileTests";
+			productReference = 006CF7F91B9E2647008CEB54 /* Rice MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		006CF7D81B9E2646008CEB54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Jeffrey Xiong";
+				TargetAttributes = {
+					006CF7DF1B9E2646008CEB54 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					006CF7F81B9E2647008CEB54 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 006CF7DF1B9E2646008CEB54;
+					};
+				};
+			};
+			buildConfigurationList = 006CF7DB1B9E2646008CEB54 /* Build configuration list for PBXProject "Rice Mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 006CF7D71B9E2646008CEB54;
+			productRefGroup = 006CF7E11B9E2646008CEB54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				006CF7DF1B9E2646008CEB54 /* Rice Mobile */,
+				006CF7F81B9E2647008CEB54 /* Rice MobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		006CF7DE1B9E2646008CEB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006CF7EF1B9E2647008CEB54 /* Main.storyboard in Resources */,
+				006CF7F41B9E2647008CEB54 /* LaunchScreen.xib in Resources */,
+				006CF7F11B9E2647008CEB54 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		006CF7F71B9E2647008CEB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		006CF7DC1B9E2646008CEB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006CF7EC1B9E2647008CEB54 /* ViewController.m in Sources */,
+				006CF7E91B9E2647008CEB54 /* AppDelegate.m in Sources */,
+				006CF7E61B9E2647008CEB54 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		006CF7F51B9E2647008CEB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006CF8001B9E2647008CEB54 /* Rice_MobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		006CF7FB1B9E2647008CEB54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 006CF7DF1B9E2646008CEB54 /* Rice Mobile */;
+			targetProxy = 006CF7FA1B9E2647008CEB54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		006CF7ED1B9E2647008CEB54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				006CF7EE1B9E2647008CEB54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		006CF7F21B9E2647008CEB54 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				006CF7F31B9E2647008CEB54 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		006CF8011B9E2647008CEB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		006CF8021B9E2647008CEB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		006CF8041B9E2647008CEB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rice Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		006CF8051B9E2647008CEB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rice Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		006CF8071B9E2647008CEB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rice MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rice Mobile.app/Rice Mobile";
+			};
+			name = Debug;
+		};
+		006CF8081B9E2647008CEB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rice MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rice Mobile.app/Rice Mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		006CF7DB1B9E2646008CEB54 /* Build configuration list for PBXProject "Rice Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				006CF8011B9E2647008CEB54 /* Debug */,
+				006CF8021B9E2647008CEB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		006CF8031B9E2647008CEB54 /* Build configuration list for PBXNativeTarget "Rice Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				006CF8041B9E2647008CEB54 /* Debug */,
+				006CF8051B9E2647008CEB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		006CF8061B9E2647008CEB54 /* Build configuration list for PBXNativeTarget "Rice MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				006CF8071B9E2647008CEB54 /* Debug */,
+				006CF8081B9E2647008CEB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 006CF7D81B9E2646008CEB54 /* Project object */;
+}
