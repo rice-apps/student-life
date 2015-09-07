@@ -40,7 +40,7 @@ class FacilitiesTableViewController: UITableViewController, UITableViewDelegate,
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell : UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("Cell") as! UITableViewCell
-        var item<String, String> = itemsArray[indexPath.row]
+        var item : Dictionary<String,String> = itemsArray[indexPath.row] as Dictionary
         cell.textLabel?.text = item["name"]
         return cell
         
