@@ -14,7 +14,7 @@
 		<string>https://github.com/rice-apps/student-life.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>student-life/student-life.xcodeproj</string>
+	<string>deprecated/student-life.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E164E08A32C97C297F65FEE6F4A30EF7C624B0C9</key>
