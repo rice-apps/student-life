@@ -13,97 +13,129 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar_tile.jpg" id="QHR-Ce-AZz">
-                                <rect key="frame" x="0.0" y="547" width="204" height="98"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondren_tile.jpg" id="hev-7m-JKU">
-                                <rect key="frame" x="204" y="547" width="196" height="98"/>
+                                <rect key="frame" x="0.0" y="416" width="159" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="atlas_tile.jpg" id="mG5-aB-cbP">
-                                <rect key="frame" x="0.0" y="354" width="204" height="193"/>
+                                <rect key="frame" x="0.0" y="259" width="159" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="servery_tile.jpg" id="r56-hR-7vl">
-                                <rect key="frame" x="204" y="354" width="196" height="193"/>
+                                <rect key="frame" x="159" y="259" width="161" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facilities_tile.jpg" id="Xs4-nk-s2M">
-                                <rect key="frame" x="0.0" y="645" width="204" height="98"/>
+                                <rect key="frame" x="0.0" y="482" width="159" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover.jpg" id="BIN-gd-5ZG">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="259"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="directory_tile.jpg" id="jIZ-Vl-CNV">
-                                <rect key="frame" x="204" y="645" width="196" height="98"/>
+                                <rect key="frame" x="159" y="482" width="161" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SXh-7n-nk8">
-                                <rect key="frame" x="22" y="365" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="h1w-S2-WA4">
-                                <rect key="frame" x="222" y="365" width="54" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PcM-NG-Ljx">
-                                <rect key="frame" x="49" y="573" width="54" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uaZ-hf-qDW">
-                                <rect key="frame" x="282" y="573" width="54" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zLg-B3-Gqy">
-                                <rect key="frame" x="282" y="702" width="54" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4lR-gq-h1q">
-                                <rect key="frame" x="61" y="702" width="54" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover.jpg" id="BIN-gd-5ZG">
-                                <rect key="frame" x="0.0" y="0.0" width="400" height="357"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondren_tile.jpg" id="hev-7m-JKU">
+                                <rect key="frame" x="159" y="416" width="161" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7VN-o5-uwq">
+                                <rect key="frame" x="56" y="304" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1ix-UG-Pb1">
+                                <rect key="frame" x="216" y="304" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bHX-XS-wgF">
+                                <rect key="frame" x="56" y="434" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gtk-g5-tBk">
+                                <rect key="frame" x="216" y="434" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OaQ-JU-qpo">
+                                <rect key="frame" x="56" y="501" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xxP-Dd-ZsG" kind="modal" id="8WR-gs-d4B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kng-lv-vpK">
+                                <rect key="frame" x="216" y="501" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="banner" destination="BIN-gd-5ZG" id="gfV-uD-sVm"/>
                         <outlet property="calendar" destination="QHR-Ce-AZz" id="bZ4-PP-gdP"/>
-                        <outlet property="calendarBtn" destination="PcM-NG-Ljx" id="xOx-eT-A9a"/>
+                        <outlet property="calendarBtn" destination="bHX-XS-wgF" id="ILO-cX-Mso"/>
                         <outlet property="dining" destination="r56-hR-7vl" id="4wA-Bn-II1"/>
-                        <outlet property="diningBtn" destination="h1w-S2-WA4" id="6OJ-Vn-8l5"/>
+                        <outlet property="diningBtn" destination="1ix-UG-Pb1" id="Nio-ax-hd7"/>
                         <outlet property="directory" destination="jIZ-Vl-CNV" id="skv-Uh-GNb"/>
-                        <outlet property="directoryBtn" destination="zLg-B3-Gqy" id="Jiu-e8-hwR"/>
+                        <outlet property="directoryBtn" destination="kng-lv-vpK" id="hBH-fU-pbf"/>
                         <outlet property="facilities" destination="Xs4-nk-s2M" id="EEE-qW-eDE"/>
-                        <outlet property="facilitiesBtn" destination="4lR-gq-h1q" id="tnF-lR-PAE"/>
+                        <outlet property="facilitiesBtn" destination="OaQ-JU-qpo" id="AoT-mN-wJG"/>
                         <outlet property="fondren" destination="hev-7m-JKU" id="P48-fy-qYv"/>
-                        <outlet property="fondrenBtn" destination="uaZ-hf-qDW" id="f0W-k8-rbO"/>
+                        <outlet property="fondrenBtn" destination="gtk-g5-tBk" id="Jql-qI-dOI"/>
                         <outlet property="maps" destination="mG5-aB-cbP" id="rWs-Dh-7dq"/>
-                        <outlet property="mapsBtn" destination="SXh-7n-nk8" id="Sl1-6i-SLo"/>
+                        <outlet property="mapsBtn" destination="7VN-o5-uwq" id="2NN-Ln-TDt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="368" y="349.31999999999999"/>
+            <point key="canvasLocation" x="326" y="151"/>
+        </scene>
+        <!--Facilities Table View Controller-->
+        <scene sceneID="2FY-P3-ytN">
+            <objects>
+                <tableViewController id="xxP-Dd-ZsG" customClass="FacilitiesTableViewController" customModule="Rice_Mobile" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="QD2-sO-7IE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="a2L-y1-cAg">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a2L-y1-cAg" id="fd6-Ju-lzf">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xxP-Dd-ZsG" id="GNc-lV-lp3"/>
+                            <outlet property="delegate" destination="xxP-Dd-ZsG" id="3he-TJ-2rn"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Q0h-zG-p1z"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZHG-lc-lCG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="684" y="151"/>
         </scene>
     </scenes>
     <resources>
