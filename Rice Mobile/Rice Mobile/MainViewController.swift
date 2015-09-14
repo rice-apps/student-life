@@ -33,6 +33,9 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        // Navigation bar
+        self.navigationController?.navigationBarHidden = true
+        
         // Get Screen Size
         let screenSize: CGSize = UIScreen.mainScreen().bounds.size
         let screenWidth: CGFloat = screenSize.width
@@ -62,15 +65,18 @@ class MainViewController: UIViewController {
         fondrenBtn.frame = tile4
         facilitiesBtn.frame = tile5
         directoryBtn.frame = tile6
-//
-        
-        
-        
-        
-        
         
     }
-
+    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.navigationBarHidden = true
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.navigationController?.navigationBarHidden = false
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

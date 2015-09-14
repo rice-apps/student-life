@@ -1,1 +1,14 @@
 Schedule
+
+iOS
+________________
+
+9/20 ---- functional swift / learn swift
+10/04 ---- finish implementing facilities, calendar, servery
+10/11 ---- 
+
+
+android
+________________
+
+9/20 ---- setup layout, finish implementing facilities
