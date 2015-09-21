@@ -19,7 +19,7 @@ class CalendarTableViewController : UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var calendarLinkArray: [String] = ["rice.edu_90aprbs5m5el9odenh43sff5hc%40group.calendar.google.com"]
+//        var calendarLinkArray: [String] = ["rice.edu_90aprbs5m5el9odenh43sff5hc%40group.calendar.google.com"]
         
 //        for link in calendarLinkArray {
 //            var call : String = "https://www.googleapis.com/calendar/v3/calendars/" + link + "/events?key=AIzaSyB2odfmCmGT9KwJZv4ImL0OvcM-zOKQFYM"
