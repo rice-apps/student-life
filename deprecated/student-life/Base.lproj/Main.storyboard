@@ -1,358 +1,358 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BuV-21-UYk">
-<dependencies>
-<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-</dependencies>
-<scenes>
-<!--Home View Controller-->
-<scene sceneID="QW0-Ek-xeQ">
-<objects>
-<viewController id="v2n-Sd-CEW" customClass="HomeViewController" sceneMemberID="viewController">
-<view key="view" contentMode="scaleToFill" id="RXg-Cr-50t">
-<rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<subviews>
-<imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover.jpg" id="bEf-cX-e2s">
-<rect key="frame" x="0.0" y="-7" width="320" height="275"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-</imageView>
-<imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="atlas_tile.jpg" id="h12-p1-644">
-<rect key="frame" x="-1" y="267" width="162" height="162"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-</imageView>
-<imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="servery_tile.jpg" id="pHP-Cq-Xvt">
-<rect key="frame" x="159" y="267" width="162" height="162"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<color key="backgroundColor" red="0.44705882349999998" green="0.63137254899999995" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-</imageView>
-<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar_tile.jpg" id="fas-bc-JsB">
-<rect key="frame" x="-1" y="428" width="162" height="69"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<color key="backgroundColor" red="0.44705882349999998" green="0.63137254899999995" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-</imageView>
-<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondren_tile.jpg" id="n5C-lm-pjG">
-<rect key="frame" x="159" y="428" width="162" height="69"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<color key="backgroundColor" red="0.68076201479999998" green="1" blue="0.8350358309" alpha="1" colorSpace="calibratedRGB"/>
-</imageView>
-<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facilities_tile.jpg" id="opy-gb-k8d">
-<rect key="frame" x="-1" y="497" width="162" height="69"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<color key="backgroundColor" red="0.44705882349999998" green="0.63137254899999995" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-</imageView>
-<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="directory_tile.jpg" id="jhF-1t-oC5">
-<rect key="frame" x="159" y="497" width="162" height="69"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<color key="backgroundColor" red="0.68076201479999998" green="1" blue="0.8350358309" alpha="1" colorSpace="calibratedRGB"/>
-</imageView>
-<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BiO-wR-uca">
-<rect key="frame" x="-1" y="267" width="162" height="162"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<state key="normal" title=" ">
-<color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-</state>
-<connections>
-<segue destination="lge-mR-h6R" kind="push" id="Mi2-pm-Qsg"/>
-</connections>
-</button>
-<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wTX-Qn-1HZ">
-<rect key="frame" x="159" y="267" width="162" height="162"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<state key="normal" title=" ">
-<color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-</state>
-<connections>
-<segue destination="2jX-VY-yDN" kind="push" id="E7P-d6-jXf"/>
-</connections>
-</button>
-<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oYa-ho-ttg">
-<rect key="frame" x="-1" y="428" width="161" height="69"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<state key="normal" title=" ">
-<color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-</state>
-</button>
-<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UMG-oa-5Gb">
-<rect key="frame" x="0.0" y="428" width="160" height="69"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<state key="normal">
-<color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-</state>
-<connections>
-<segue destination="xSe-6z-J78" kind="push" id="a0y-qS-Sqb"/>
-</connections>
-</button>
-<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y0h-NG-zfl">
-<rect key="frame" x="161" y="428" width="160" height="69"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<state key="normal">
-<color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-</state>
-</button>
-<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xhg-oY-w2a">
-<rect key="frame" x="-1" y="497" width="160" height="69"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<state key="normal">
-<color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-</state>
-<connections>
-<segue destination="cRx-Hp-Vaz" kind="push" id="HmK-JU-tl6"/>
-</connections>
-</button>
-<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pVZ-qY-cGE">
-<rect key="frame" x="159" y="499" width="160" height="69"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<state key="normal">
-<color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-</state>
-</button>
-<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="C8q-GG-Yqi">
-<rect key="frame" x="16" y="229" width="43" height="30"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-<state key="normal" title="Log In">
-<color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</state>
-<connections>
-<segue destination="l3r-Lz-q8j" kind="push" id="L8m-bO-Qqr"/>
-</connections>
-</button>
-</subviews>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</view>
-<navigationItem key="navigationItem" id="4dl-gV-Sdo"/>
-<nil key="simulatedTopBarMetrics"/>
-<connections>
-<outlet property="atlasBtn" destination="BiO-wR-uca" id="qz0-Oq-ry9"/>
-<outlet property="atlasTile" destination="h12-p1-644" id="RVn-IR-nSW"/>
-<outlet property="banner" destination="bEf-cX-e2s" id="FIH-xl-FVR"/>
-<outlet property="calendarBtn" destination="UMG-oa-5Gb" id="IyF-RW-wYX"/>
-<outlet property="calendarTile" destination="fas-bc-JsB" id="xd5-Wf-hSO"/>
-<outlet property="directoryBtn" destination="pVZ-qY-cGE" id="e5X-C4-h9L"/>
-<outlet property="directoryTile" destination="jhF-1t-oC5" id="i5O-0U-2ym"/>
-<outlet property="facilitiesBtn" destination="Xhg-oY-w2a" id="D9z-NJ-i55"/>
-<outlet property="facilitiesTile" destination="opy-gb-k8d" id="Sr6-sK-9Kn"/>
-<outlet property="fondrenBtn" destination="Y0h-NG-zfl" id="8TS-CK-0uN"/>
-<outlet property="fondrenTile" destination="n5C-lm-pjG" id="aPE-zi-OpX"/>
-<outlet property="homeBar" destination="4dl-gV-Sdo" id="7gI-dc-xry"/>
-<outlet property="serveryBtn" destination="wTX-Qn-1HZ" id="ByO-E1-sYx"/>
-<outlet property="serveryTile" destination="pHP-Cq-Xvt" id="u9M-b3-MIh"/>
-</connections>
-</viewController>
-<placeholder placeholderIdentifier="IBFirstResponder" id="F3j-Dd-ofB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-</objects>
-<point key="canvasLocation" x="-3731" y="1002"/>
-</scene>
-<!--Login Controller-->
-<scene sceneID="04U-Z0-EIv">
-<objects>
-<viewController id="l3r-Lz-q8j" customClass="LoginController" sceneMemberID="viewController">
-<view key="view" contentMode="scaleToFill" id="Q6y-GF-XaY">
-<rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<subviews>
-<webView contentMode="scaleToFill" id="WBJ-Xs-wTM">
-<rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-<autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</webView>
-</subviews>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</view>
-<navigationItem key="navigationItem" id="5a3-TW-9m7"/>
-<connections>
-<outlet property="loginView" destination="WBJ-Xs-wTM" id="FhC-8R-fHd"/>
-</connections>
-</viewController>
-<placeholder placeholderIdentifier="IBFirstResponder" id="iBX-WX-4qd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-</objects>
-<point key="canvasLocation" x="-3297" y="346"/>
-</scene>
-<!--Atlas View Controller-->
-<scene sceneID="dLl-kq-3kN">
-<objects>
-<viewController id="lge-mR-h6R" customClass="AtlasViewController" sceneMemberID="viewController">
-<view key="view" contentMode="scaleToFill" id="oD5-9q-gqF">
-<rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<subviews>
-<webView contentMode="scaleToFill" id="F45-xx-iKg">
-<rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-</webView>
-</subviews>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</view>
-<navigationItem key="navigationItem" id="8Id-Kw-ftV"/>
-<connections>
-<outlet property="atlasView" destination="F45-xx-iKg" id="ajn-Nj-kWx"/>
-</connections>
-</viewController>
-<placeholder placeholderIdentifier="IBFirstResponder" id="LqY-F1-jb1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-</objects>
-<point key="canvasLocation" x="-3297" y="1002"/>
-</scene>
-<!--Events @ Rice-->
-<scene sceneID="vhn-cU-aHj">
-<objects>
-<tableViewController id="xSe-6z-J78" customClass="CalendarViewController" sceneMemberID="viewController">
-<tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1DH-aF-aaf">
-<rect key="frame" x="0.0" y="64" width="320" height="568"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-<prototypes>
-<tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="Cell" id="6bK-iO-X7h">
-<rect key="frame" x="0.0" y="86" width="320" height="44"/>
-<autoresizingMask key="autoresizingMask"/>
-<tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6bK-iO-X7h" id="6X9-RC-Gmv">
-<rect key="frame" x="0.0" y="0.0" width="253" height="43.5"/>
-<autoresizingMask key="autoresizingMask"/>
-</tableViewCellContentView>
-</tableViewCell>
-</prototypes>
-<connections>
-<outlet property="dataSource" destination="xSe-6z-J78" id="B7W-4P-aXr"/>
-<outlet property="delegate" destination="xSe-6z-J78" id="xAb-fQ-vZZ"/>
-</connections>
-</tableView>
-<navigationItem key="navigationItem" title="Events @ Rice" id="Oos-4w-cex">
-<barButtonItem key="rightBarButtonItem" systemItem="add" id="b7f-cT-GV1"/>
-</navigationItem>
-<simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-</tableViewController>
-<placeholder placeholderIdentifier="IBFirstResponder" id="dvW-9S-Kk0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-</objects>
-<point key="canvasLocation" x="-4528" y="1718"/>
-</scene>
-<!--Event Name-->
-<scene sceneID="GNM-OQ-hhp">
-<objects>
-<viewController id="N9M-ob-vEf" customClass="CalendarEventViewController" sceneMemberID="viewController">
-<view key="view" contentMode="scaleToFill" id="MvA-WP-M7m">
-<rect key="frame" x="0.0" y="64" width="320" height="568"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</view>
-<extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-<navigationItem key="navigationItem" title="Event Name" id="FA7-hz-lrQ"/>
-<freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-<size key="freeformSize" width="320" height="568"/>
-</viewController>
-<placeholder placeholderIdentifier="IBFirstResponder" id="dBF-w1-TK0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-</objects>
-<point key="canvasLocation" x="-4155" y="1718"/>
-</scene>
-<!--Facilities at Rice University-->
-<scene sceneID="MFh-xD-rKn">
-<objects>
-<tableViewController id="cRx-Hp-Vaz" customClass="FacilitiesTableViewController" sceneMemberID="viewController">
-<tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="qmo-Iv-Nsx">
-<rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-<color key="separatorColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-<prototypes>
-<tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="Bcx-Ei-0gH">
-<rect key="frame" x="0.0" y="86" width="320" height="44"/>
-<autoresizingMask key="autoresizingMask"/>
-<tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bcx-Ei-0gH" id="ik3-82-tRz">
-<rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
-<autoresizingMask key="autoresizingMask"/>
-</tableViewCellContentView>
-<connections>
-<segue destination="hYe-vX-C9V" kind="push" id="ZTA-k1-TE0"/>
-</connections>
-</tableViewCell>
-</prototypes>
-<sections/>
-<connections>
-<outlet property="dataSource" destination="cRx-Hp-Vaz" id="uPZ-qb-BFz"/>
-<outlet property="delegate" destination="cRx-Hp-Vaz" id="gHG-xE-rS9"/>
-</connections>
-</tableView>
-<navigationItem key="navigationItem" title="Facilities at Rice University" id="t3s-fH-F1N">
-<barButtonItem key="backBarButtonItem" title="Home" id="qVX-OM-sKt"/>
-</navigationItem>
-<simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-</tableViewController>
-<placeholder placeholderIdentifier="IBFirstResponder" id="Hw1-KU-e0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
-</objects>
-<point key="canvasLocation" x="-3731" y="1718"/>
-</scene>
-<!--View Controller-->
-<scene sceneID="ZiH-J1-IVg">
-<objects>
-<viewController id="hYe-vX-C9V" sceneMemberID="viewController">
-<view key="view" contentMode="scaleToFill" id="qQ7-1v-Mda">
-<rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</view>
-<navigationItem key="navigationItem" id="JoE-Ej-12h"/>
-</viewController>
-<placeholder placeholderIdentifier="IBFirstResponder" id="YjP-Sh-Ve3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-</objects>
-<point key="canvasLocation" x="-3297" y="1718"/>
-</scene>
-<!--Servery View Controller-->
-<scene sceneID="70w-p3-8X1">
-<objects>
-<viewController id="2jX-VY-yDN" customClass="ServeryViewController" sceneMemberID="viewController">
-<view key="view" contentMode="scaleToFill" id="dZx-sZ-dtv">
-<rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<subviews>
-<webView contentMode="scaleToFill" id="tEy-Dt-wFT">
-<rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</webView>
-</subviews>
-<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-</view>
-<navigationItem key="navigationItem" id="l8F-ON-r3Y"/>
-<connections>
-<outlet property="serveryView" destination="tEy-Dt-wFT" id="lGf-ed-xfz"/>
-</connections>
-</viewController>
-<placeholder placeholderIdentifier="IBFirstResponder" id="H9w-Ya-xkS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-</objects>
-<point key="canvasLocation" x="-2893" y="1002"/>
-</scene>
-<!--Navigation Controller-->
-<scene sceneID="ISK-y5-XXk">
-<objects>
-<navigationController id="BuV-21-UYk" sceneMemberID="viewController">
-<navigationItem key="navigationItem" id="sDf-4a-4lL"/>
-<navigationBar key="navigationBar" contentMode="scaleToFill" id="XnC-bz-9fm">
-<rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-<autoresizingMask key="autoresizingMask"/>
-</navigationBar>
-<toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="J9I-ty-if3">
-<autoresizingMask key="autoresizingMask"/>
-</toolbar>
-<connections>
-<segue destination="v2n-Sd-CEW" kind="relationship" relationship="rootViewController" id="XQm-lp-VSc"/>
-</connections>
-</navigationController>
-<placeholder placeholderIdentifier="IBFirstResponder" id="JhQ-Ci-IXV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-</objects>
-<point key="canvasLocation" x="-4155" y="1002"/>
-</scene>
-</scenes>
-<resources>
-<image name="atlas_tile.jpg" width="375" height="375"/>
-<image name="calendar_tile.jpg" width="375" height="175"/>
-<image name="cover.jpg" width="1822" height="1692"/>
-<image name="directory_tile.jpg" width="375" height="175"/>
-<image name="facilities_tile.jpg" width="375" height="175"/>
-<image name="fondren_tile.jpg" width="375" height="175"/>
-<image name="servery_tile.jpg" width="375" height="375"/>
-</resources>
-<simulatedMetricsContainer key="defaultSimulatedMetrics">
-<simulatedStatusBarMetrics key="statusBar"/>
-<simulatedOrientationMetrics key="orientation"/>
-<simulatedScreenMetrics key="destination" type="retina4"/>
-</simulatedMetricsContainer>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="QW0-Ek-xeQ">
+            <objects>
+                <viewController id="v2n-Sd-CEW" customClass="HomeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RXg-Cr-50t">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover.jpg" id="bEf-cX-e2s">
+                                <rect key="frame" x="0.0" y="-7" width="320" height="275"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="atlas_tile.jpg" id="h12-p1-644">
+                                <rect key="frame" x="-1" y="267" width="162" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="servery_tile.jpg" id="pHP-Cq-Xvt">
+                                <rect key="frame" x="159" y="267" width="162" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.44705882349999998" green="0.63137254899999995" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar_tile.jpg" id="fas-bc-JsB">
+                                <rect key="frame" x="-1" y="428" width="162" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.44705882349999998" green="0.63137254899999995" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondren_tile.jpg" id="n5C-lm-pjG">
+                                <rect key="frame" x="159" y="428" width="162" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68076201479999998" green="1" blue="0.8350358309" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facilities_tile.jpg" id="opy-gb-k8d">
+                                <rect key="frame" x="-1" y="497" width="162" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.44705882349999998" green="0.63137254899999995" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="directory_tile.jpg" id="jhF-1t-oC5">
+                                <rect key="frame" x="159" y="497" width="162" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68076201479999998" green="1" blue="0.8350358309" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BiO-wR-uca">
+                                <rect key="frame" x="-1" y="267" width="162" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lge-mR-h6R" kind="push" id="Mi2-pm-Qsg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wTX-Qn-1HZ">
+                                <rect key="frame" x="159" y="267" width="162" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2jX-VY-yDN" kind="push" id="E7P-d6-jXf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oYa-ho-ttg">
+                                <rect key="frame" x="-1" y="428" width="161" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UMG-oa-5Gb">
+                                <rect key="frame" x="0.0" y="428" width="160" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xSe-6z-J78" kind="push" id="a0y-qS-Sqb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y0h-NG-zfl">
+                                <rect key="frame" x="161" y="428" width="160" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xhg-oY-w2a">
+                                <rect key="frame" x="-1" y="497" width="160" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cRx-Hp-Vaz" kind="push" id="HmK-JU-tl6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pVZ-qY-cGE">
+                                <rect key="frame" x="159" y="499" width="160" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="C8q-GG-Yqi">
+                                <rect key="frame" x="16" y="229" width="43" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="l3r-Lz-q8j" kind="push" id="L8m-bO-Qqr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4dl-gV-Sdo"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="atlasBtn" destination="BiO-wR-uca" id="qz0-Oq-ry9"/>
+                        <outlet property="atlasTile" destination="h12-p1-644" id="RVn-IR-nSW"/>
+                        <outlet property="banner" destination="bEf-cX-e2s" id="FIH-xl-FVR"/>
+                        <outlet property="calendarBtn" destination="UMG-oa-5Gb" id="IyF-RW-wYX"/>
+                        <outlet property="calendarTile" destination="fas-bc-JsB" id="xd5-Wf-hSO"/>
+                        <outlet property="directoryBtn" destination="pVZ-qY-cGE" id="e5X-C4-h9L"/>
+                        <outlet property="directoryTile" destination="jhF-1t-oC5" id="i5O-0U-2ym"/>
+                        <outlet property="facilitiesBtn" destination="Xhg-oY-w2a" id="D9z-NJ-i55"/>
+                        <outlet property="facilitiesTile" destination="opy-gb-k8d" id="Sr6-sK-9Kn"/>
+                        <outlet property="fondrenBtn" destination="Y0h-NG-zfl" id="8TS-CK-0uN"/>
+                        <outlet property="fondrenTile" destination="n5C-lm-pjG" id="aPE-zi-OpX"/>
+                        <outlet property="homeBar" destination="4dl-gV-Sdo" id="7gI-dc-xry"/>
+                        <outlet property="serveryBtn" destination="wTX-Qn-1HZ" id="ByO-E1-sYx"/>
+                        <outlet property="serveryTile" destination="pHP-Cq-Xvt" id="u9M-b3-MIh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F3j-Dd-ofB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3731" y="1002"/>
+        </scene>
+        <!--Login Controller-->
+        <scene sceneID="04U-Z0-EIv">
+            <objects>
+                <viewController id="l3r-Lz-q8j" customClass="LoginController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q6y-GF-XaY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="WBJ-Xs-wTM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5a3-TW-9m7"/>
+                    <connections>
+                        <outlet property="loginView" destination="WBJ-Xs-wTM" id="FhC-8R-fHd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iBX-WX-4qd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3297" y="346"/>
+        </scene>
+        <!--Atlas View Controller-->
+        <scene sceneID="dLl-kq-3kN">
+            <objects>
+                <viewController id="lge-mR-h6R" customClass="AtlasViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oD5-9q-gqF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="F45-xx-iKg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Id-Kw-ftV"/>
+                    <connections>
+                        <outlet property="atlasView" destination="F45-xx-iKg" id="ajn-Nj-kWx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LqY-F1-jb1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3297" y="1002"/>
+        </scene>
+        <!--Events @ Rice-->
+        <scene sceneID="vhn-cU-aHj">
+            <objects>
+                <tableViewController id="xSe-6z-J78" customClass="CalendarViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1DH-aF-aaf">
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="Cell" id="6bK-iO-X7h">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6bK-iO-X7h" id="6X9-RC-Gmv">
+                                    <rect key="frame" x="0.0" y="0.0" width="253" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xSe-6z-J78" id="B7W-4P-aXr"/>
+                            <outlet property="delegate" destination="xSe-6z-J78" id="xAb-fQ-vZZ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Events @ Rice" id="Oos-4w-cex">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="b7f-cT-GV1"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dvW-9S-Kk0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4528" y="1718"/>
+        </scene>
+        <!--Event Name-->
+        <scene sceneID="GNM-OQ-hhp">
+            <objects>
+                <viewController id="N9M-ob-vEf" customClass="CalendarEventViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MvA-WP-M7m">
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" title="Event Name" id="FA7-hz-lrQ"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dBF-w1-TK0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4155" y="1718"/>
+        </scene>
+        <!--Facilities at Rice University-->
+        <scene sceneID="MFh-xD-rKn">
+            <objects>
+                <tableViewController id="cRx-Hp-Vaz" customClass="FacilitiesTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="qmo-Iv-Nsx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="Bcx-Ei-0gH">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bcx-Ei-0gH" id="ik3-82-tRz">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="hYe-vX-C9V" kind="push" id="ZTA-k1-TE0"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="cRx-Hp-Vaz" id="uPZ-qb-BFz"/>
+                            <outlet property="delegate" destination="cRx-Hp-Vaz" id="gHG-xE-rS9"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Facilities at Rice University" id="t3s-fH-F1N">
+                        <barButtonItem key="backBarButtonItem" title="Home" id="qVX-OM-sKt"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hw1-KU-e0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3731" y="1718"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZiH-J1-IVg">
+            <objects>
+                <viewController id="hYe-vX-C9V" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qQ7-1v-Mda">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JoE-Ej-12h"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YjP-Sh-Ve3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3297" y="1718"/>
+        </scene>
+        <!--Servery View Controller-->
+        <scene sceneID="70w-p3-8X1">
+            <objects>
+                <viewController id="2jX-VY-yDN" customClass="ServeryViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dZx-sZ-dtv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="tEy-Dt-wFT">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="l8F-ON-r3Y"/>
+                    <connections>
+                        <outlet property="serveryView" destination="tEy-Dt-wFT" id="lGf-ed-xfz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H9w-Ya-xkS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2893" y="1002"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ISK-y5-XXk">
+            <objects>
+                <navigationController id="BuV-21-UYk" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="sDf-4a-4lL"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XnC-bz-9fm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="J9I-ty-if3">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="v2n-Sd-CEW" kind="relationship" relationship="rootViewController" id="XQm-lp-VSc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JhQ-Ci-IXV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4155" y="1002"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="atlas_tile.jpg" width="375" height="375"/>
+        <image name="calendar_tile.jpg" width="375" height="175"/>
+        <image name="cover.jpg" width="1822" height="1692"/>
+        <image name="directory_tile.jpg" width="375" height="175"/>
+        <image name="facilities_tile.jpg" width="375" height="175"/>
+        <image name="fondren_tile.jpg" width="375" height="175"/>
+        <image name="servery_tile.jpg" width="375" height="375"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="CCt-oz-BBn">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--Main View Controller-->
@@ -60,6 +61,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="sg3-Dv-0aX" kind="push" id="27U-IY-naB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gtk-g5-tBk">
                                 <rect key="frame" x="216" y="434" width="46" height="30"/>
@@ -74,9 +78,6 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="xxP-Dd-ZsG" kind="modal" id="8WR-gs-d4B"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kng-lv-vpK">
                                 <rect key="frame" x="216" y="501" width="46" height="30"/>
@@ -88,6 +89,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Wmh-Ja-Ix2"/>
                     <connections>
                         <outlet property="banner" destination="BIN-gd-5ZG" id="gfV-uD-sVm"/>
                         <outlet property="calendar" destination="QHR-Ce-AZz" id="bZ4-PP-gdP"/>
@@ -106,36 +108,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="326" y="151"/>
+            <point key="canvasLocation" x="395" y="151"/>
         </scene>
-        <!--Facilities Table View Controller-->
-        <scene sceneID="2FY-P3-ytN">
+        <!--Calendar Table View Controller-->
+        <scene sceneID="psN-cB-jGx">
             <objects>
-                <tableViewController id="xxP-Dd-ZsG" customClass="FacilitiesTableViewController" customModule="Rice_Mobile" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="QD2-sO-7IE">
+                <tableViewController id="sg3-Dv-0aX" customClass="CalendarTableViewController" customModule="Rice_Mobile" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="22" sectionFooterHeight="22" id="dIt-Ff-Uv7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="a2L-y1-cAg">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="eventCell" rowHeight="90" id="O3Z-7Z-4jA">
+                                <rect key="frame" x="0.0" y="86" width="320" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a2L-y1-cAg" id="fd6-Ju-lzf">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O3Z-7Z-4jA" id="Qf3-Km-Fbb">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="xxP-Dd-ZsG" id="GNc-lV-lp3"/>
-                            <outlet property="delegate" destination="xxP-Dd-ZsG" id="3he-TJ-2rn"/>
+                            <outlet property="dataSource" destination="sg3-Dv-0aX" id="r8N-Le-GUi"/>
+                            <outlet property="delegate" destination="sg3-Dv-0aX" id="iTY-mx-IRT"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Q0h-zG-p1z"/>
+                    <navigationItem key="navigationItem" id="7I5-l1-fPF"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZHG-lc-lCG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lGx-rc-LRG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="684" y="151"/>
+            <point key="canvasLocation" x="834" y="151"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cNk-RT-WnK">
+            <objects>
+                <navigationController id="CCt-oz-BBn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fA8-rL-td0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="5Gt-hs-Q0U"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XL5-BI-kY1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-46" y="151"/>
         </scene>
     </scenes>
     <resources>
@@ -147,9 +165,4 @@
         <image name="fondren_tile.jpg" width="375" height="175"/>
         <image name="servery_tile.jpg" width="375" height="375"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>

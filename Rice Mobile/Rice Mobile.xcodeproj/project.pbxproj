@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00204F291BA64C4500EDCF0C /* CalendarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00204F281BA64C4500EDCF0C /* CalendarTableViewController.swift */; };
 		003247A51B9E3292009C3A9A /* atlas_tile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0032479D1B9E3292009C3A9A /* atlas_tile.jpg */; };
 		003247A61B9E3292009C3A9A /* calendar_tile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0032479E1B9E3292009C3A9A /* calendar_tile.jpg */; };
 		003247A71B9E3292009C3A9A /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0032479F1B9E3292009C3A9A /* cover.jpg */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00204F281BA64C4500EDCF0C /* CalendarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarTableViewController.swift; path = ../CalendarTableViewController.swift; sourceTree = "<group>"; };
 		0032479D1B9E3292009C3A9A /* atlas_tile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = atlas_tile.jpg; path = "Rice Mobile/Images/atlas_tile.jpg"; sourceTree = "<group>"; };
 		0032479E1B9E3292009C3A9A /* calendar_tile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = calendar_tile.jpg; path = "Rice Mobile/Images/calendar_tile.jpg"; sourceTree = "<group>"; };
 		0032479F1B9E3292009C3A9A /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cover.jpg; path = "Rice Mobile/Images/cover.jpg"; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		00394A7D1B9E26B000ACD771 /* Rice Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				00204F281BA64C4500EDCF0C /* CalendarTableViewController.swift */,
 				4FFFA6861B9E293F0058FE9D /* FacilitiesTableViewController.swift */,
 				00394A801B9E26B000ACD771 /* AppDelegate.swift */,
 				00394A821B9E26B000ACD771 /* MainViewController.swift */,
@@ -192,6 +195,8 @@
 		00394A731B9E26B000ACD771 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Jeffrey Xiong";
 				TargetAttributes = {
@@ -256,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00204F291BA64C4500EDCF0C /* CalendarTableViewController.swift in Sources */,
 				00394A831B9E26B000ACD771 /* MainViewController.swift in Sources */,
 				4FFFA6871B9E293F0058FE9D /* FacilitiesTableViewController.swift in Sources */,
 				00394A811B9E26B000ACD771 /* AppDelegate.swift in Sources */,
