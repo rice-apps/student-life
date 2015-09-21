@@ -11,7 +11,9 @@ import UIKit
 
 var itemsArray = [[String:Any]]()
 
-class FacilitiesTableViewController: UITableViewController {
+
+class FacilitiesTableViewController: UITableViewController  {
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -42,6 +44,7 @@ class FacilitiesTableViewController: UITableViewController {
         let cell : UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("Cell")! as UITableViewCell
         var item : Dictionary<String,Any> = itemsArray[indexPath.row] as Dictionary
         cell.textLabel?.text = item["name"] as? String
+
         return cell
         
     }
