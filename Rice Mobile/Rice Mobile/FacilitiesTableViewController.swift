@@ -39,7 +39,7 @@ class FacilitiesTableViewController: UITableViewController, UITableViewDelegate,
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell : UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("Cell") as! UITableViewCell
+        let cell : UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("Cell") as! UITableViewCell
         var item : Dictionary<String,String> = itemsArray[indexPath.row] as Dictionary
         cell.textLabel?.text = item["name"]
         return cell
@@ -47,6 +47,6 @@ class FacilitiesTableViewController: UITableViewController, UITableViewDelegate,
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        println("Row tapped at", indexPath.row)
+        print("Row tapped at", indexPath.row)
     }
 }

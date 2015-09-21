@@ -2,13 +2,25 @@ Schedule
 
 iOS
 ________________
+ 9/20 ---- ui designs of all views / checkup 
+ 9/27 ---- functional swift / learn swift
+	  ---- get info from library
+10/04 ---- code review
+10/11 ---- finish implementing facilities, calendar, servery, directory (data-wise)
+10/18 ---- code review
+10/25 ---- fondren, atlas check-up 1
+11/01 ---- post NOD // code review // chill
+11/08 ---- UI session 
+11/15 ---- facilities, calendar, servery, directory should all be fully functional / pretty
+11/22 ---- 
 
-9/20 ---- functional swift / learn swift
-10/04 ---- finish implementing facilities, calendar, servery
-10/11 ---- 
+
+* beta launch (once map is working)
 
 
-android
+
+android ---- TBA
 ________________
 
 9/20 ---- setup layout, finish implementing facilities
+10/04 ---- finish implementing calendar, servery

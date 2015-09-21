@@ -43,12 +43,12 @@ class MainViewController: UIViewController {
 
         
         // Set Tile Sizes
-        var tile1 = CGRectMake(0, screenHeight * 0.45, screenWidth * 0.5, screenWidth * 0.5)
-        var tile2 = CGRectMake(screenWidth / 2, screenHeight * 0.45, screenWidth * 0.5, screenWidth * 0.5)
-        var tile3 = CGRectMake(0, screenHeight * 0.45 + screenWidth * 0.5, screenWidth / 2, screenHeight * 0.275 - screenWidth * 0.25)
-        var tile4 = CGRectMake(screenWidth / 2, screenHeight * 0.45 + screenWidth * 0.5, screenWidth / 2, screenHeight * 0.275 - screenWidth * 0.25)
-        var tile5 = CGRectMake(0, screenHeight * 0.725 + screenWidth * 0.25, screenWidth / 2, screenHeight * 0.275 - screenWidth * 0.25)
-        var tile6 = CGRectMake(screenWidth / 2, screenHeight * 0.725 + screenWidth * 0.25, screenWidth / 2, screenHeight * 0.275 - screenWidth * 0.25)
+        let tile1 = CGRectMake(0, screenHeight * 0.45, screenWidth * 0.5, screenWidth * 0.5)
+        let tile2 = CGRectMake(screenWidth / 2, screenHeight * 0.45, screenWidth * 0.5, screenWidth * 0.5)
+        let tile3 = CGRectMake(0, screenHeight * 0.45 + screenWidth * 0.5, screenWidth / 2, screenHeight * 0.275 - screenWidth * 0.25)
+        let tile4 = CGRectMake(screenWidth / 2, screenHeight * 0.45 + screenWidth * 0.5, screenWidth / 2, screenHeight * 0.275 - screenWidth * 0.25)
+        let tile5 = CGRectMake(0, screenHeight * 0.725 + screenWidth * 0.25, screenWidth / 2, screenHeight * 0.275 - screenWidth * 0.25)
+        let tile6 = CGRectMake(screenWidth / 2, screenHeight * 0.725 + screenWidth * 0.25, screenWidth / 2, screenHeight * 0.275 - screenWidth * 0.25)
         
         // Set Tile Sizes + Images
         banner.frame = CGRectMake(0, 0, screenWidth, screenHeight * 0.45)
