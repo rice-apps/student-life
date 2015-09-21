@@ -78,6 +78,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="2Aa-2P-pGl" kind="push" id="Don-c6-fVI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kng-lv-vpK">
                                 <rect key="frame" x="216" y="501" width="46" height="30"/>
@@ -109,6 +112,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="395" y="151"/>
+        </scene>
+        <!--Facilities Table View Controller-->
+        <scene sceneID="QGY-gf-HIJ">
+            <objects>
+                <tableViewController id="2Aa-2P-pGl" customClass="FacilitiesTableViewController" customModule="Rice_Mobile" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="GwP-A4-N3X">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="72i-R3-dMu">
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="72i-R3-dMu" id="kZf-dJ-psB">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="2Aa-2P-pGl" id="oZq-lr-nMb"/>
+                            <outlet property="delegate" destination="2Aa-2P-pGl" id="gad-Oi-qMj"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="0Pd-mo-Sj3"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wnn-E7-FcG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="395" y="782"/>
         </scene>
         <!--Calendar Table View Controller-->
         <scene sceneID="psN-cB-jGx">

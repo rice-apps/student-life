@@ -9,13 +9,13 @@
 import Foundation
 import UIKit
 
-var itemsArray = [[String:String]]()
+var itemsArray = [[String:Any]]()
 
-class FacilitiesTableViewController: UITableViewController, UITableViewDelegate, UITableViewDataSource {
+class FacilitiesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var itemsArray = [
+        itemsArray = [
             ["name" : "Recreation Center", "id" : 1],
             ["name" : "Mudd Lab", "id" : 2],
             ["name" : "Fondren Library", "id" : 3],
@@ -39,9 +39,9 @@ class FacilitiesTableViewController: UITableViewController, UITableViewDelegate,
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell : UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("Cell") as! UITableViewCell
-        var item : Dictionary<String,String> = itemsArray[indexPath.row] as Dictionary
-        cell.textLabel?.text = item["name"]
+        let cell : UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("Cell")! as UITableViewCell
+        var item : Dictionary<String,Any> = itemsArray[indexPath.row] as Dictionary
+        cell.textLabel?.text = item["name"] as? String
         return cell
         
     }
